@@ -14,6 +14,12 @@ var $div3 = $('#sticky3, #draggable3');
 var $div4 = $('#sticky4, #draggable4');
 var $div5 = $('#sticky5, #draggable5');
 var $div6 = $('#sticky6, #draggable6');
+var $div6 = $('#draggable13');
+var $div6 = $('#draggable14');
+var $div6 = $('#draggable15');
+var $div6 = $('#draggable16');
+var $div6 = $('#draggable17');
+var $div6 = $('#draggable18');
 
 $('#colorchange1').click(function(){
   $div1.css({
