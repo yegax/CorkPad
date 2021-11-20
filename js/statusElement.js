@@ -96,4 +96,52 @@ $("#delete12").click(function() {
     $('#draggable12').hide("blind");
 });
 
+// Media 13    
+$("#media13").click(function() {
+    $('#draggable13').toggle("blind");
+});
+$("#delete13").click(function() {
+    $('#draggable13').hide("blind");
+});
+
+// Media 14    
+$("#media14").click(function() {
+    $('#draggable14').toggle("blind");
+});
+$("#delete14").click(function() {
+    $('#draggable14').hide("blind");
+});
+
+// Media 15    
+$("#media15").click(function() {
+    $('#draggable15').toggle("blind");
+});
+$("#delete15").click(function() {
+    $('#draggable15').hide("blind");
+});
+
+// Media 16    
+$("#media16").click(function() {
+    $('#draggable16').toggle("blind");
+});
+$("#delete16").click(function() {
+    $('#draggable16').hide("blind");
+});
+
+// Media 17    
+$("#media17").click(function() {
+    $('#draggable17').toggle("blind");
+});
+$("#delete17").click(function() {
+    $('#draggable17').hide("blind");
+});
+
+// Media 18    
+$("#media18").click(function() {
+    $('#draggable18').toggle("blind");
+});
+$("#delete18").click(function() {
+    $('#draggable18').hide("blind");
+});
+
 });

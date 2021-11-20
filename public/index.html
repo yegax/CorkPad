@@ -96,22 +96,39 @@ body{
 .m-18 {
     margin: 73px;
 }
+.px-85 {
+    padding-left: 2.10rem;
+    padding-right: 2.10rem;  
+}
 
 </style>
 </head>
 
-<body class="flex flex-col">
+<body class="flex flex-col">     
+<div id="#printDiv">    
 
 <nav>
     <div class="flex-row bg-gray-200 py-1 px-1 shadow-lg z-50 relative"> 
 
     <div class="dropdown inline-block">
-        <button class="bg-gray-300 hover:bg-gray-400 text-black font-mono py-2 px-10 rounded transition-colors transition duration-500 textshadow-c"> File
+        <button class="bg-gray-300 hover:bg-gray-400 text-black font-mono py-2 px-9 rounded transition-colors transition duration-500 textshadow-c"> File
             <svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="16.5" fill="currentColor" class="bi bi-house-door-fill float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
                 <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
                 <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
             </svg>
         </button>
+        <ul class="dropdown-content absolute hidden text-gray-700">
+            <li class="dropdown">
+                <a class="bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap rounded-b cursor-pointer">Export
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
+                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                    </svg>                     
+                </a> 
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-10 ml-24 -mt-10 cursor-pointer">
+                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 rounded-b block whitespace-no-wrap">PNG</button> </li> 
+                </ul>
+            </li>
+        </ul>
     </div>
 
     <div class="dropdown inline-block">
@@ -147,7 +164,7 @@ body{
                 </ul>
             </li>
             <li class="dropdown">
-                <a class="bg-gray-200 hover:bg-gray-300 py-2 px-9 block rounded-b whitespace-no-wrap">Media
+                <a class="bg-gray-200 hover:bg-gray-300 py-2 px-9 block whitespace-no-wrap">Media
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
@@ -161,15 +178,32 @@ body{
                     <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media12" >#6</a></li>    
                 </ul>
             </li>
+            <li class="dropdown">
+                <a class="bg-gray-200 hover:bg-gray-300 py-2 px-9 rounded-b block whitespace-no-wrap"> List
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
+                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                    </svg>                     
+                </a> 
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-10 ml-24 -mt-10 cursor-pointer">
+                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list13" >#1</a></li>
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list14" >#2</a> </li>
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list15" >#3</a></li>
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list16" >#4</a></li>
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list17" >#5</a></li>
+                    <li class=""><a class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list18" >#6</a></li>    
+                </ul>
+            </li>
         </ul>
     </div>
 
-        <a class="bg-yellow-400 text-black float-left font-mono font-semibold py-2 px-7 mx-1 rounded dark:bg-white cursor-default">CorkPad</a>
+        <img class="float-left cursor-default rounded mx-1 " src="https://i.postimg.cc/MZcsr4WF/corkpad-logo.png" alt="developer desk" style="height: 9%; width: 9%;">
+
+
     </div>
 </nav>
 
     <header>
-
+        <div id="img-out"></div>
     </header>
 
     <section>
@@ -388,6 +422,26 @@ body{
         </div>
     </section>
 
+    <section>
+        <!-- Draggable List 13 --> 
+        <div style="display:none" class="panel m-12" id="draggable13">
+            <div class="panelheader"> 
+                <a id="delete13"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="black" class="cursor-pointer bi bi-x float-right bg-black-200" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </a>
+                <a id="colorchange13">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18.5" height="18.5" fill="black" class="cursor-pointer bi bi-paint-bucket float-left bg-black-200" viewBox="0 0 16 16">
+                    <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a2.972 2.972 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1.01 1.01 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4.322 4.322 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067-.707-.707-1.441-1.279-2.068-1.627-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219l-.217.216zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.283 3.283 0 0 1-.131-.673c.091.061.204.15.337.274zm.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088c.054.12.115.243.183.365.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626.122.068.244.13.365.183l-4.861 4.862a.571.571 0 0 1-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46-.66-.66-1.168-1.32-1.46-1.846-.147-.265-.225-.47-.251-.607a.573.573 0 0 1-.01-.068l3.048-3.047zm2.87-1.935a2.44 2.44 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.497 3.497 0 0 0-1.066.091 11.27 11.27 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                    </svg>
+                </a>
+                <p class="font-bold "> Note 2 </p>
+            </div>
+            <textarea id="sticky13" class="bg-yellow-note resize-none" rows="10" cols="32"> </textarea>
+        </div>
+    </section>
+
 
     <article>
     </article>
@@ -399,15 +453,16 @@ body{
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="https://github.com/niklasvh/html2canvas/releases/download/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+    <script src="/js/html2canvas.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/dragElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/statusElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/colorElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/mediaElement.js"></script>
-    <script src="/js/dragElement.js"></script>
-    <script src="/js/statusElement.js"></script>
-    <script src="/js/colorElement.js"></script>
-    <script src="/js/mediaElement.js"></script>
-    
+
+</div>    
 </body>
 
 

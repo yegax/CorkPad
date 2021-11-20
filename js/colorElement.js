@@ -51,5 +51,47 @@ $('#colorchange6').click(function(){
     })
 });
 
+$('#colorchange13').click(function(){
+    $div6.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+
+$('#colorchange14').click(function(){
+    $div6.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+
+$('#colorchange15').click(function(){
+    $div6.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+
+$('#colorchange16').click(function(){
+    $div6.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+
+$('#colorchange17').click(function(){
+    $div6.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+
+$('#colorchange18').click(function(){
+    $div6.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+
 
 });

@@ -48,4 +48,28 @@ $( function() {
     $( "#draggable12" ).draggable({scroll: false});
 } );
 
+$( function() {
+    $( "#draggable13" ).draggable({scroll: false});
+} );
+
+$( function() {
+    $( "#draggable14" ).draggable({scroll: false});
+} );
+
+$( function() {
+    $( "#draggable15" ).draggable({scroll: false});
+} );
+
+$( function() {
+    $( "#draggable16" ).draggable({scroll: false});
+} );
+
+$( function() {
+    $( "#draggable17" ).draggable({scroll: false});
+} );
+
+$( function() {
+    $( "#draggable18" ).draggable({scroll: false});
+} );
+
 });
