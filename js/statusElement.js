@@ -97,7 +97,7 @@ $("#delete12").click(function() {
 });
 
 // Media 13    
-$("#media13").click(function() {
+$("#note13").click(function() {
     $('#draggable13').toggle("blind");
 });
 $("#delete13").click(function() {
@@ -105,7 +105,7 @@ $("#delete13").click(function() {
 });
 
 // Media 14    
-$("#media14").click(function() {
+$("#note14").click(function() {
     $('#draggable14').toggle("blind");
 });
 $("#delete14").click(function() {
@@ -113,7 +113,7 @@ $("#delete14").click(function() {
 });
 
 // Media 15    
-$("#media15").click(function() {
+$("#note15").click(function() {
     $('#draggable15').toggle("blind");
 });
 $("#delete15").click(function() {
@@ -121,7 +121,7 @@ $("#delete15").click(function() {
 });
 
 // Media 16    
-$("#media16").click(function() {
+$("#note16").click(function() {
     $('#draggable16').toggle("blind");
 });
 $("#delete16").click(function() {
@@ -129,7 +129,7 @@ $("#delete16").click(function() {
 });
 
 // Media 17    
-$("#media17").click(function() {
+$("#note17").click(function() {
     $('#draggable17').toggle("blind");
 });
 $("#delete17").click(function() {
@@ -137,7 +137,7 @@ $("#delete17").click(function() {
 });
 
 // Media 18    
-$("#media18").click(function() {
+$("#note18").click(function() {
     $('#draggable18').toggle("blind");
 });
 $("#delete18").click(function() {
