@@ -14,12 +14,12 @@ var $div3 = $('#sticky3, #draggable3');
 var $div4 = $('#sticky4, #draggable4');
 var $div5 = $('#sticky5, #draggable5');
 var $div6 = $('#sticky6, #draggable6');
-var $div6 = $('#draggable13');
-var $div6 = $('#draggable14');
-var $div6 = $('#draggable15');
-var $div6 = $('#draggable16');
-var $div6 = $('#draggable17');
-var $div6 = $('#draggable18');
+var $div13 = $('#draggable13');
+var $div14 = $('#draggable14');
+var $div15 = $('#draggable15');
+var $div16 = $('#draggable16');
+var $div17 = $('#draggable17');
+var $div18 = $('#draggable18');
 
 $('#colorchange1').click(function(){
   $div1.css({
@@ -58,42 +58,42 @@ $('#colorchange6').click(function(){
 });
 
 $('#colorchange13').click(function(){
-    $div6.css({
+    $div13.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });
 
 
 $('#colorchange14').click(function(){
-    $div6.css({
+    $div14.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });
 
 
 $('#colorchange15').click(function(){
-    $div6.css({
+    $div15.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });
 
 
 $('#colorchange16').click(function(){
-    $div6.css({
+    $div16.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });
 
 
 $('#colorchange17').click(function(){
-    $div6.css({
+    $div17.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });
 
 
 $('#colorchange18').click(function(){
-    $div6.css({
+    $div18.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });
