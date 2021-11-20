@@ -8,12 +8,12 @@ var colors = [
   "#81d3ff"     
 ];
 
-var $div1 = $('#sticky1, #draggable1');
-var $div2 = $('#sticky2, #draggable2');
-var $div3 = $('#sticky3, #draggable3');
-var $div4 = $('#sticky4, #draggable4');
-var $div5 = $('#sticky5, #draggable5');
-var $div6 = $('#sticky6, #draggable6');
+var $div1 = $('#draggable1');
+var $div2 = $('#draggable2');
+var $div3 = $('#draggable3');
+var $div4 = $('#draggable4');
+var $div5 = $('#draggable5');
+var $div6 = $('#draggable6');
 var $div13 = $('#draggable13');
 var $div14 = $('#draggable14');
 var $div15 = $('#draggable15');

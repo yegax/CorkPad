@@ -8,7 +8,7 @@ $(document).ready(function(){
 
                 var imgData = canvas.toDataURL('image/png');
                 console.log('Report Image URL: '+imgData);
-                var doc = new jsPDF('p', 'mm', [297, 210]); //210mm wide and 297mm high
+                var doc = new jsPDF('p', 'mm', [210, 280]); //210mm wide and 297mm high
                 
                 doc.addImage(imgData, 'PNG', 10, 10);
                 doc.save('sample.pdf');
