@@ -13,6 +13,7 @@
 
 <body id="printDiv" class="flex flex-col">     
     
+<!-- Nav Bar -->
 <nav>
     <div class="flex-row bg-gray-200 py-1 px-1 shadow-lg z-50 relative"> 
 
@@ -32,8 +33,10 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-10 ml-24 -mt-10 cursor-pointer">
-                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 rounded-b block whitespace-no-wrap">PNG</button> </li> 
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 -mt-10 cursor-pointer">
+                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PDF</button> </li> 
+                    <li class=""> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PNG</button> </li>
+                    <li class=""> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">JPG</button> </li>
                 </ul>
             </li>
         </ul>
@@ -62,7 +65,7 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-10 ml-24 -mt-10 cursor-pointer">
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
                     <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap " id="note1">#1</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="note2">#2</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="note3">#3</a></li>
@@ -77,7 +80,7 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-10 ml-24 -mt-10 cursor-pointer">
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
                     <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media7" >#1</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media8" >#2</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media9" >#3</a></li>
@@ -92,7 +95,7 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-10 ml-24 -mt-10 cursor-pointer">
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
                     <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list13" >#1</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list14" >#2</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list15" >#3</a></li>
@@ -111,9 +114,12 @@
     <header>
     </header>
 
+    <!-- Elements -->
     <div>  
-    <section>
-        <!-- Draggable Note 1 --> 
+    <!-- Notes -->
+    <div>
+    <!-- Draggable Note 1 -->    
+    <section> 
         <div style="display:none" class="panel m-10" id="draggable1">
             <div class="panelheader"> 
                 <a id="delete1"> 
@@ -132,8 +138,8 @@
         </div>
     </section>
 
+    <!-- Draggable Note 2 --> 
     <section>
-        <!-- Draggable Note 2 --> 
         <div style="display:none" class="panel m-12" id="draggable2">
             <div class="panelheader"> 
                 <a id="delete2"> 
@@ -152,8 +158,8 @@
         </div>
     </section>
 
-    <section>
-        <!-- Draggable Note 3 --> 
+    <!-- Draggable Note 3 -->
+    <section> 
         <div style="display:none" class="panel m-14" id="draggable3">
             <div class="panelheader"> 
                 <a id="delete3"> 
@@ -172,8 +178,8 @@
         </div>
     </section>
 
+    <!-- Draggable Note 4 --> 
     <section>
-        <!-- Draggable Note 4 --> 
         <div style="display:none" class="panel m-16" id="draggable4">
             <div class="panelheader"> 
                 <a id="delete4"> 
@@ -192,8 +198,8 @@
         </div>
     </section>
 
+    <!-- Draggable Note 5 --> 
     <section>
-        <!-- Draggable Note 5 --> 
         <div style="display:none" class="panel m-18" id="draggable5">
             <div class="panelheader"> 
                 <a id="delete5"> 
@@ -212,8 +218,8 @@
         </div>
     </section>
 
+    <!-- Draggable Note 6 --> 
     <section>
-        <!-- Draggable Note 6 --> 
         <div style="display:none" class="panel m-20" id="draggable6">
             <div class="panelheader"> 
                 <a id="delete6"> 
@@ -231,7 +237,10 @@
             <textarea class="bg-clear resize-none" rows="10" cols="32"> </textarea>
         </div>
     </section>
+    </div>
 
+    <!-- Media -->
+    <div>
     <!-- Draggable Media 7 --> 
     <section>
         <div style="display:none" class="mediapanel mx-4 my-10 z-30" id="draggable7">
@@ -327,7 +336,10 @@
             <img class="cursor-move m-auto pt-2" width="300"  id="image12" src="">
         </div>
     </section>
+    </div>
 
+    <!-- Lists -->
+    <div>
     <!-- Draggable List 13 --> 
     <section>
         <div style="display:none" class="panel m-10" id="draggable13">
@@ -678,11 +690,11 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> 
         </div>
     </section>
     </div>
-
+    </div>
 
     <article>
     </article>
@@ -690,7 +702,6 @@
     <footer>
     </footer>
 
-    
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>

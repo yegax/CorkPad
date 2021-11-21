@@ -90,6 +90,12 @@ body{
     padding-left: 2.10rem;
     padding-right: 2.10rem;  
 }
+.pl-95 {
+    padding-left: 2.22rem;
+}
+.pl-101 {
+    padding-left: 2.37rem;
+}
 textarea::placeholder {
   color: rgba(67, 67, 67, 0.33);  
 }
