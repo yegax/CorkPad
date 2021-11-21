@@ -22,7 +22,7 @@ $(document).ready(function(){
             onrendered: function(canvas) {
 
                 var pdfData = canvas.toDataURL('image/png');
-                var doc = new jsPDF('p', 'mm', [470, 557]); //210mm wide and 297mm high
+                var doc = new jsPDF('p', 'mm', [480, 567]); //210mm wide and 297mm high
                 doc.addImage(pdfData, 'PNG', 10, 10);
                 doc.save('CorkPad.pdf');
             }
