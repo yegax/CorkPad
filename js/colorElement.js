@@ -20,6 +20,9 @@ var $div15 = $('#draggable15');
 var $div16 = $('#draggable16');
 var $div17 = $('#draggable17');
 var $div18 = $('#draggable18');
+var $div19 = $('#draggable19');
+var $div20 = $('#draggable20');
+var $div21 = $('#draggable21');
 
 $('#colorchange1').click(function(){
   $div1.css({
@@ -94,6 +97,24 @@ $('#colorchange17').click(function(){
 
 $('#colorchange18').click(function(){
     $div18.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+$('#colorchange19').click(function(){
+    $div19.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+$('#colorchange20').click(function(){
+    $div20.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+$('#colorchange21').click(function(){
+    $div21.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });

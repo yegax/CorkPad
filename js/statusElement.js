@@ -96,7 +96,7 @@ $("#delete12").click(function() {
     $('#draggable12').hide("blind");
 });
 
-// Media 13    
+// List 13    
 $("#list13").click(function() {
     $('#draggable13').toggle("blind");
 });
@@ -104,7 +104,7 @@ $("#delete13").click(function() {
     $('#draggable13').hide("blind");
 });
 
-// Media 14    
+// List 14    
 $("#list14").click(function() {
     $('#draggable14').toggle("blind");
 });
@@ -112,7 +112,7 @@ $("#delete14").click(function() {
     $('#draggable14').hide("blind");
 });
 
-// Media 15    
+// List 15    
 $("#list15").click(function() {
     $('#draggable15').toggle("blind");
 });
@@ -120,7 +120,7 @@ $("#delete15").click(function() {
     $('#draggable15').hide("blind");
 });
 
-// Media 16    
+// List 16    
 $("#list16").click(function() {
     $('#draggable16').toggle("blind");
 });
@@ -128,7 +128,7 @@ $("#delete16").click(function() {
     $('#draggable16').hide("blind");
 });
 
-// Media 17    
+// List 17    
 $("#list17").click(function() {
     $('#draggable17').toggle("blind");
 });
@@ -136,12 +136,36 @@ $("#delete17").click(function() {
     $('#draggable17').hide("blind");
 });
 
-// Media 18    
+// List 18    
 $("#list18").click(function() {
     $('#draggable18').toggle("blind");
 });
 $("#delete18").click(function() {
     $('#draggable18').hide("blind");
+});
+
+// Clicker 19    
+$("#clicker19").click(function() {
+    $('#draggable19').toggle("blind");
+});
+$("#delete19").click(function() {
+    $('#draggable19').hide("blind");
+});
+
+// Clicker 20    
+$("#clicker20").click(function() {
+    $('#draggable20').toggle("blind");
+});
+$("#delete20").click(function() {
+    $('#draggable20').hide("blind");
+});
+
+// Clicker 21    
+$("#clicker21").click(function() {
+    $('#draggable21').toggle("blind");
+});
+$("#delete21").click(function() {
+    $('#draggable21').hide("blind");
 });
 
 });

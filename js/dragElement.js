@@ -72,4 +72,19 @@ $( function() {
     $( "#draggable18" ).draggable({scroll: false});
 } );
 
+$( function() {
+    $( "#draggable19" ).draggable({scroll: false});
+} );
+
+$( function() {
+    $( "#draggable20" ).draggable({scroll: false});
+} );
+
+$( function() {
+    $( "#draggable21" ).draggable({scroll: false});
+} );
+
+
+
+
 });
