@@ -144,28 +144,36 @@ $("#delete18").click(function() {
     $('#draggable18').hide("blind");
 });
 
-// Clicker 19    
-$("#clicker19").click(function() {
+// Counter 19    
+$("#counter19").click(function() {
     $('#draggable19').toggle("blind");
 });
 $("#delete19").click(function() {
     $('#draggable19').hide("blind");
 });
 
-// Clicker 20    
-$("#clicker20").click(function() {
+// Counter 20    
+$("#counter20").click(function() {
     $('#draggable20').toggle("blind");
 });
 $("#delete20").click(function() {
     $('#draggable20').hide("blind");
 });
 
-// Clicker 21    
-$("#clicker21").click(function() {
+// Counter 21    
+$("#counter21").click(function() {
     $('#draggable21').toggle("blind");
 });
 $("#delete21").click(function() {
     $('#draggable21').hide("blind");
+});
+
+// Counter 22  
+$("#counter22").click(function() {
+    $('#draggable22').toggle("blind");
+});
+$("#delete22").click(function() {
+    $('#draggable22').hide("blind");
 });
 
 });

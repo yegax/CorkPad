@@ -23,6 +23,7 @@ var $div18 = $('#draggable18');
 var $div19 = $('#draggable19');
 var $div20 = $('#draggable20');
 var $div21 = $('#draggable21');
+var $div22 = $('#draggable22');
 
 $('#colorchange1').click(function(){
   $div1.css({
@@ -115,6 +116,12 @@ $('#colorchange20').click(function(){
 
 $('#colorchange21').click(function(){
     $div21.css({
+        "background-color": colors[(counter++)%colors.length]
+    })
+});
+
+$('#colorchange22').click(function(){
+    $div22.css({
         "background-color": colors[(counter++)%colors.length]
     })
 });

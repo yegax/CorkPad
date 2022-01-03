@@ -1,6 +1,6 @@
 body{
-    background-image: url('https://i.postimg.cc/15BnX6Cx/cork-g6cb9f4295-1920.jpg');
-    background-size: cover;
+    background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
+    background-size:initial;
     overflow: hidden;
 }
 .non-click{
@@ -41,6 +41,15 @@ body{
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 60%);
   z-index:10;
 }
+.panel-twitter {
+    position: absolute;
+    background-color: #ffde5a;
+    text-align: center;
+    width: 320px;
+    height: 434px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 60%);
+    z-index:10;
+  }
 .panelheader {
   margin-bottom: 0px;
   padding: 5px;
@@ -102,3 +111,77 @@ textarea::placeholder {
 .bg-clear {
     background-color: rgba(0, 0, 0, 0);
 }
+
+
+
+.counter, .reset, .themes, .minus {
+    background-color: #ffffff21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444444;
+    user-select: none;
+  }
+  .counter {
+    width: 160px;
+    height: 155px;
+    border-radius: 10%;
+    margin-left: 130px;
+    margin-top: -155px;
+    border: 2px solid #4343433d;
+    font-size: 80px;
+  }
+  .buttonscont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+  }
+  .minus {
+    width: 90px;
+    height: 70px;
+    border-radius: 20%;
+    padding: 10px;
+    margin-top: 16px;
+    margin-left: 15px;
+    font-weight: 600;
+    border: 2px solid #4343433d;
+    font-size: 25px;
+    cursor:pointer;
+  }
+  .reset {
+    width: 90px;
+    height: 70px;
+    border-radius: 20%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 600;
+    border: 1px solid #4343433d;
+    font-size: 25px;
+    cursor:pointer;
+  }
+
+  .minus span {
+    font-size: 80px;
+    position: relative;
+    top: -0.6rem;
+  }
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(31, 41, 55, 1); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

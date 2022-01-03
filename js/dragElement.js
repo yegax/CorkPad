@@ -1,90 +1,10 @@
 $(document).ready(function(){
+
+    var $divZ = $("#draggable1, #draggable2, #draggable3, #draggable4, #draggable5, #draggable6, #draggable7, #draggable8, #draggable9, #draggable10, #draggable11, #draggable12, #draggable13, #draggable14, #draggable15, #draggable16, #draggable17, #draggable18, #draggable19, #draggable20, #draggable21, #draggable22");
     
 $( function() {
-  $( "#draggable1" ).draggable({scroll: false});
+  $divZ.draggable({scroll: false, stack: "div"});
 } );
-
-$( function() {
-    $( "#draggable2" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable3" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable4" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable5" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable6" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable7" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable8" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable9" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable10" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable11" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable12" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable13" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable14" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable15" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable16" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable17" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable18" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable19" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable20" ).draggable({scroll: false});
-} );
-
-$( function() {
-    $( "#draggable21" ).draggable({scroll: false});
-} );
-
-
 
 
 });
