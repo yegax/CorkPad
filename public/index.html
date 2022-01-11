@@ -49,6 +49,31 @@
                 <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
             </svg>
         </button>
+        <ul class="dropdown-content absolute hidden text-gray-700">
+            <li class="dropdown">
+                <a class="bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap cursor-pointer">Theme
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
+                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                    </svg>                     
+                </a> 
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 -mt-10 cursor-pointer">
+                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Light</button> </li> 
+                    <li class=""> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Dark</button> </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap rounded-b cursor-pointer">Setting
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
+                        <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                    </svg>                     
+                </a> 
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 -mt-10 cursor-pointer">
+                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Cork</button> </li> 
+                    <li class=""> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Wood</button> </li>
+                    <li class=""> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Metal</button> </li>
+                </ul>
+            </li>
+        </ul>
     </div>
 
     <div class="dropdown inline-block">
@@ -859,18 +884,20 @@
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-    </script>     
+    </script>   
+
+    <!--
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/dragElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/statusElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/colorElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/counterElement.js"></script>
+    -->
 
-    <!--
     <script src="/js/counterElement.js"></script>
     <script src="/js/colorElement.js"></script>
     <script src="/js/dragElement.js"></script>
     <script src="/js/statusElement.js"></script>
-    -->
+
 </body>
 
 

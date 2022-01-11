@@ -3,6 +3,10 @@ body{
     background-size:initial;
     overflow: hidden;
 }
+.wood-bg {
+  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+  background-size:initial;
+ }
 .non-click{
     pointer-events:none;
 }
@@ -38,8 +42,11 @@ body{
   text-align: center;
   width: 320px;
   height: 274px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 60%);
-  z-index:10;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  opacity: 90%;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 60%);
+  z-index: 10;
 }
 .panel-twitter {
     position: absolute;
@@ -47,6 +54,9 @@ body{
     text-align: center;
     width: 320px;
     height: 434px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    opacity: 90%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 60%);
     z-index:10;
   }
@@ -111,7 +121,6 @@ textarea::placeholder {
 .bg-clear {
     background-color: rgba(0, 0, 0, 0);
 }
-
 
 
 .counter, .reset, .themes, .minus {
@@ -185,3 +194,4 @@ textarea::placeholder {
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
