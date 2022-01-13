@@ -17,7 +17,7 @@
 <nav>
     <div class="flex-row bg-gray-200 py-1 px-1 shadow-lg z-50 relative"> 
 
-        <img class="inline-block cursor-default rounded mx-1 " src="https://i.postimg.cc/MZcsr4WF/corkpad-logo.png" alt="developer desk" style="height: 9%; width: 9%;">
+    <img class="inline-block cursor-default rounded mx-1 " src="https://i.postimg.cc/MZcsr4WF/corkpad-logo.png" alt="developer desk" style="height: 9%; width: 9%;">
 
     <div class="dropdown inline-block">
         <button class="bg-gray-300 hover:bg-gray-400 text-black font-mono py-2 px-9 rounded transition-colors transition duration-500 textshadow-c"> File
@@ -26,21 +26,26 @@
                 <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
             </svg>
         </button>
-        <ul class="dropdown-content absolute hidden text-gray-700">
+        <ul class="dropdown-opacity dropdown-content absolute hidden text-gray-700">
             <li class="dropdown">
-                <a class="bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap rounded-b cursor-pointer">Export
+
+                <a class=" bg-gray-200 p-dropdown-blank px-85 block whitespace-no-wrap"> <div class="p-div-divider"></div> </a> 
+            
+                
+
+                <a class="dropdown-outline  bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap rounded-b cursor-pointer">Export
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 -mt-10 cursor-pointer">
-                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PDF</button> </li> 
-                    <li class=""> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PNG</button> </li>
-                    <li class=""> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">JPG</button> </li>
+                <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 margl-b margl cursor-pointer">
+                    <li class="dropdown-outline"> <buton id="pdfDownload" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PDF</button> </li> 
+                    <li class="dropdown-outline"> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PNG</button> </li>
+                    <li class="dropdown-outline"> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">JPG</button> </li>
                 </ul>
             </li>
         </ul>
-    </div>
+    </div> 
 
     <div class="dropdown inline-block">
         <button class="bg-gray-300 hover:bg-gray-400 text-black font-mono py-2 px-9 rounded transition-colors transition duration-500 textshadow-c">Edit
@@ -49,16 +54,19 @@
                 <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
             </svg>
         </button>
-        <ul class="dropdown-content absolute hidden text-gray-700">
+        <ul class="dropdown-content absolute hidden text-gray-700 dropdown-opacity">
             <li class="dropdown">
+
+                <a class=" bg-gray-200 p-dropdown-blank px-85 block whitespace-no-wrap"> <div class="p-div-divider"></div> </a> 
+
                 <a class="bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap cursor-pointer">Theme
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 -mt-10 cursor-pointer">
-                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Light</button> </li> 
-                    <li class=""> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Dark</button> </li>
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-d cursor-pointer">
+                    <li class=""> <buton id="" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-8 block whitespace-no-wrap">Light</button> </li> 
+                    <li class=""> <buton id="" type="button" class="rounded-br bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Dark</button> </li>
                 </ul>
             </li>
             <li class="dropdown">
@@ -68,9 +76,9 @@
                     </svg>                     
                 </a> 
                 <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 -mt-10 cursor-pointer">
-                    <li class=""> <buton id="pdfDownload" type="button" class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Cork</button> </li> 
-                    <li class=""> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Wood</button> </li>
-                    <li class=""> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Metal</button> </li>
+                    <li class=""> <buton id="cork-bg" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Cork</button> </li> 
+                    <li class=""> <buton id="wood-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Wood</button> </li>
+                    <li class=""> <buton id="metal-bg" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Metal</button> </li>
                 </ul>
             </li>
         </ul>
@@ -83,15 +91,18 @@
                 <path d="M11.434 4H4.566L4.5 5.994h.386c.21-1.252.612-1.446 2.173-1.495l.343-.011v6.343c0 .537-.116.665-1.049.748V12h3.294v-.421c-.938-.083-1.054-.21-1.054-.748V4.488l.348.01c1.56.05 1.963.244 2.173 1.496h.386L11.434 4z"/>
             </svg>
         </button>
-        <ul class="dropdown-content absolute hidden text-gray-700">
+        <ul class="dropdown-content dropdown-opacity absolute hidden text-gray-700">
             <li class="dropdown">
+
+                <a class=" bg-gray-200 p-dropdown-blank px-85 block whitespace-no-wrap"> <div class="p-div-divider"></div> </a> 
+
                 <a class="bg-gray-200 hover:bg-gray-300 py-2 px-9 block whitespace-no-wrap cursor-pointer">Notes
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap " id="note1">#1</a> </li>
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-c cursor-pointer">
+                    <li class=""><a class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap " id="note1">#1</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="note2">#2</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="note3">#3</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="note4">#4</a></li>
@@ -105,8 +116,8 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media7" >#1</a></li>
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-c cursor-pointer">
+                    <li class=""><a class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media7" >#1</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media8" >#2</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media9" >#3</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="media10" >#4</a></li>
@@ -120,8 +131,8 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list13" >#1</a></li>
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-c cursor-pointer">
+                    <li class=""><a class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list13" >#1</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list14" >#2</a> </li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list15" >#3</a></li>
                     <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="list16" >#4</a></li>
@@ -139,15 +150,18 @@
                 <path d="M11.434 4H4.566L4.5 5.994h.386c.21-1.252.612-1.446 2.173-1.495l.343-.011v6.343c0 .537-.116.665-1.049.748V12h3.294v-.421c-.938-.083-1.054-.21-1.054-.748V4.488l.348.01c1.56.05 1.963.244 2.173 1.496h.386L11.434 4z"/>
             </svg>
         </button>
-        <ul class="dropdown-content absolute hidden text-gray-700">
+        <ul class="dropdown-content dropdown-opacity absolute hidden text-gray-700">
             <li class="dropdown">
+
+                <a class=" bg-gray-200 p-dropdown-blank px-85 block whitespace-no-wrap"> <div class="p-div-divider"></div> </a> 
+
                 <a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">Weather
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
-                    <li class=""><a class="rounded bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="counter21" >#1</a> </li> 
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-e cursor-pointer">
+                    <li class=""><a class="rounded-r bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="counter21" >#1</a> </li> 
                 </ul>
             </li>
             <li class="dropdown">
@@ -156,8 +170,8 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
-                    <li class=""><a class="rounded bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="counter20" >#1</a></li>
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-e cursor-pointer">
+                    <li class=""><a class="rounded-r bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap" id="counter20" >#1</a></li>
                 </ul>
             </li>            
             <li class="dropdown">
@@ -166,8 +180,8 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute  hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
-                    <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 rounded block whitespace-no-wrap" id="counter22" >#1</a></li>  
+                <ul class="dropdown-content absolute  hidden text-gray-700 margl-e cursor-pointer">
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-300 py-2 px-7 rounded-r block whitespace-no-wrap" id="counter22" >#1</a></li>  
                 </ul>
             </li>
             <li class="dropdown">
@@ -176,9 +190,31 @@
                         <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
                     </svg>                     
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-101 ml-24 -mt-10 cursor-pointer">
-                    <li class=""><a class="rounded-t bg-gray-200 hover:bg-gray-300 rounded py-2 px-7 block whitespace-no-wrap" id="counter19" >#1</a></li>   
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-e cursor-pointer">
+                    <li class=""><a class="bg-gray-200 hover:bg-gray-300 rounded-r py-2 px-7 block whitespace-no-wrap" id="counter19" >#1</a></li>   
                 </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="dropdown float-right inline-block">
+        <button class="bg-gray-300 hover:bg-gray-400 text-black font-mono py-2 px-9 mx-2 rounded transition-colors transition duration-500 textshadow-c"> Help
+            <svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="16.5" fill="currentColor" class="bi bi-house-door-fill float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
+                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+            </svg>
+        </button>
+        <ul class="dropdown-opacity dropdown-content absolute hidden text-gray-700">
+            <li class="dropdown">
+                <div class="margl-f">
+                    <a class=" bg-gray-200 p-dropdown-blank px-85 block whitespace-no-wrap"> <div class="p-div-divider"></div> </a>  
+
+                <a class="margl-g text-center dropdown-outline bg-gray-200 hover:bg-gray-300 py-2 block whitespace-no-wrap cursor-pointer">Help</a> 
+
+                <a class="margl-g text-center dropdown-outline bg-gray-200 hover:bg-gray-300 py-2 block whitespace-no-wrap cursor-pointer">About</a> 
+
+                <a class="margl-g text-center dropdown-outline bg-gray-200 hover:bg-gray-300 py-2 block whitespace-no-wrap rounded-b cursor-pointer">Feedback</a> 
+                </div>
             </li>
         </ul>
     </div>
@@ -886,19 +922,20 @@
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
     </script>   
 
-
+       
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/dragElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/statusElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/colorElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/counterElement.js"></script>
-
-        <!--
+    <script src="https://combinatronics.com/yegax/CorkPad/main/js/bgElement.js"></script>
+       
+ <!--
     <script src="/js/counterElement.js"></script>
     <script src="/js/colorElement.js"></script>
     <script src="/js/dragElement.js"></script>
     <script src="/js/statusElement.js"></script>
-        -->
-
+    <script src="/js/bgElement.js"></script>
+-->     
 </body>
 
 

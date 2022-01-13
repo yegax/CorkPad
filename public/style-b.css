@@ -1,11 +1,16 @@
 body{
-    background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
     background-size:initial;
     overflow: hidden;
 }
-.wood-bg {
+body, .body-bg{
+  background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
+}
+
+.body-bg{
+  background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
+}
+.wood-bg-img {
   background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
-  background-size:initial;
  }
 .non-click{
     pointer-events:none;
@@ -122,6 +127,52 @@ textarea::placeholder {
     background-color: rgba(0, 0, 0, 0);
 }
 
+.dropdown-outline{
+  outline: rgba(153, 153, 153, 0.1);
+  outline-width: 0px;
+  outline-style: solid;
+  outline-offset: -5px;
+}
+.dropdown-opacity{
+  opacity: 80%;
+  box-shadow: 2px 2px 6px rgba(26, 26, 26, 0.2);
+}
+
+.margl{
+  margin-left: 92.2px;
+}
+.p-dropdown-blank {
+  padding-top: 10px;
+}
+.p-div-divider {
+  border-bottom: 1px solid rgba(155, 155, 155, 0.6);
+  margin-left: -27px;
+  margin-right: -27px;
+}
+
+
+.margl-b{
+  margin-top: -38px;
+}
+.margl-c{
+  margin-left: 131px;
+  margin-top: -38.5px;
+}
+.margl-d{
+  margin-left: 132px;
+  margin-top: -38.5px;
+}
+.margl-e{
+  margin-left: 134px;
+  margin-top: -39.4px;
+}
+.margl-f{
+  margin-left: 9px;
+}
+.margl-g{
+  padding-right: 30px;
+  padding-left: 30px;
+}
 
 .counter, .reset, .themes, .minus {
     background-color: #ffffff21;
