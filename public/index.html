@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.css">
 
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+</style>
 
 <body id="printDiv" class="flex flex-col">     
     
@@ -17,7 +20,11 @@
 <nav>
     <div class="flex-row bg-gray-200 py-1 px-1 shadow-lg z-50 relative"> 
 
-    <img class="inline-block cursor-default rounded mx-1 " src="https://i.postimg.cc/MZcsr4WF/corkpad-logo.png" alt="developer desk" style="height: 9%; width: 9%;">
+        <button class="text-black font-mono py-0 px-2 mr-28 "> 
+            <a class="icon-font icon-shadow flex icon-fade rounded cursor-default">CorkPad</a>
+        </button>
+    
+    <img class="opacity-0 hidden inline-block cursor-default rounded mx-1 " src="https://i.postimg.cc/MZcsr4WF/corkpad-logo.png" alt="developer desk" style="height: 9%; width: 9%;">
 
     <div class="dropdown inline-block">
         <button class="bg-gray-300 hover:bg-gray-400 text-black font-mono py-2 px-9 rounded transition-colors transition duration-500 textshadow-c"> File
@@ -30,8 +37,6 @@
             <li class="dropdown">
 
                 <a class=" bg-gray-200 p-dropdown-blank px-85 block whitespace-no-wrap"> <div class="p-div-divider"></div> </a> 
-            
-                
 
                 <a class="dropdown-outline  bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap rounded-b cursor-pointer">Export
                     <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="black" class="bi bi-caret-right my-1 float-right" viewBox="0 0 16 16">
