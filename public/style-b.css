@@ -4,16 +4,36 @@ body{
     background-size:initial;
     overflow: hidden;
 }
-body, .body-bg{
+body, .cork-bg-img{
   background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
 }
 
-.body-bg{
+.cork-bg-img{
   background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
 }
 .wood-bg-img {
   background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
  }
+ .metal-bg-img {
+  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+ }
+ .woodgrain-bg-img {
+  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+ }
+ .tiles-bg-img {
+  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+ }
+ .brick-bg-img {
+  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+ }
+ .grass-bg-img {
+  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+ }
+ .chipboard-bg-img {
+  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+ }
+
+
 .non-click{
     pointer-events:none;
 }
@@ -41,6 +61,43 @@ body, .body-bg{
 }
 .bg-yellow-note{
     background-color: #ffde5a;;
+}
+.bg-gray-main{
+  background-color: rgb(229, 231, 235);
+  color: rgb(0, 0, 0);
+}
+.bg-gray-second{
+  background-color: rgba(209, 213, 219, 1);
+  color: rgb(0, 0, 0);
+}
+.bg-gray-second-a{
+  background-color: rgba(209, 213, 219, 1);
+  color: rgb(0, 0, 0);
+}
+.bg-gray-main-dark-a{
+  background-color: rgb(28, 34, 46);
+  color: rgb(209, 213, 219);
+}
+.bg-gray-main-dark{
+  background-color: rgb(28, 34, 46);
+  color: rgb(209, 213, 219);
+}
+.bg-gray-main-dark:hover{
+  background-color: rgb(67, 82, 109);
+}
+.bg-gray-second-dark{
+  background-color: rgb(47, 57, 75);
+  color: rgb(209, 213, 219);
+}
+.bg-gray-second-dark-a{
+  background-color: rgb(47, 57, 75);
+  color: rgba(209, 213, 219,0.7);
+}
+.bg-gray-second-dark:hover{
+  background-color: rgb(67, 82, 109);
+}
+.bg-gray-main-bright{
+  background-color: rgb(39, 228, 55);
 }
 
 .panel {
@@ -176,7 +233,7 @@ textarea::placeholder {
   margin-top: -38.5px;
 }
 .margl-e{
-  margin-left: 134px;
+  margin-left: 133px;
   margin-top: -39.4px;
 }
 .margl-f{
@@ -185,6 +242,14 @@ textarea::placeholder {
 .margl-g{
   padding-right: 30px;
   padding-left: 30px;
+}
+.margl-h{
+  margin-left: 124.5px;
+  margin-top: -39.4px;
+}
+.margl-i{
+  padding-left: 32.5px;
+  padding-right: 32.5px;
 }
 
 .counter, .reset, .themes, .minus {
@@ -203,6 +268,13 @@ textarea::placeholder {
     margin-top: -155px;
     border: 2px solid #4343433d;
     font-size: 80px;
+    transition:ease-in-out;
+    transition-duration: 0.35s;
+  }
+  .counter:hover{
+    background-color: rgba(77, 77, 77, 0.179);
+    transition:ease-in-out;
+    transition-duration: 0.35s;
   }
   .buttonscont {
     display: flex;
@@ -220,6 +292,13 @@ textarea::placeholder {
     border: 2px solid #4343433d;
     font-size: 25px;
     cursor:pointer;
+    transition:ease-in-out;
+    transition-duration: 0.35s;
+  }
+  .minus:hover{
+    background-color: rgba(77, 77, 77, 0.179);
+    transition:ease-in-out;
+    transition-duration: 0.35s;
   }
   .reset {
     width: 90px;
@@ -232,6 +311,13 @@ textarea::placeholder {
     border: 1px solid #4343433d;
     font-size: 25px;
     cursor:pointer;
+    transition:ease-in-out;
+    transition-duration: 0.35s;
+  }
+  .reset:hover{
+    background-color: rgba(77, 77, 77, 0.179);
+    transition:ease-in-out;
+    transition-duration: 0.35s;
   }
 
   .minus span {
@@ -268,7 +354,7 @@ textarea::placeholder {
     color: #fff;
     position: absolute;
     margin-top: -36.3px;
-    margin-left: -5px;
+    margin-left: -5.6px;
     z-index: 10;
     font-weight: 600;
     background: linear-gradient(to right,rgb(248, 255, 123) 10%, #89d6ff 40%, rgb(86, 159, 255) 50%);
@@ -288,7 +374,128 @@ textarea::placeholder {
   .menu-white-mode{
     background-color: rgba(229, 231, 235, 0);
   }
+  
 
+  .help-container {
+    width: 1000px;
+    height: 586px;
+    z-index: 100;
+    border: 1px rgb(0, 0, 0) transparent;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    opacity: 100%;
+    border-radius: 9px;
+    visibility: block;
+  }
+  .help-container-header {
+    width: 1000px;
+    height: 26px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    opacity: 100%;
+    z-index: 30;
+  }
+  .separator-line-l {
+    margin-top: 10px;
+    width: 550px;
+    height: 1px;
+    background-color: rgba(26, 26, 26, 0.2);
+    z-index: 30;
+  }
+  .help-scene {
+    z-index: 9;
+   }
+   .help-scene-light {
+     pointer-events: none;
+     margin-left: 666px;
+     margin-top: 56px;
+     z-index: 10;
+     opacity: 98%;
+     width: 54px;
+     height: 65px;
+     border-radius: 20px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0 0px 70px rgb(255, 255, 255);
+     animation-name: scene-light-anim;
+     animation-duration: 1.8s;
+     animation-iteration-count: infinite;
+   }
+   @keyframes scene-light-anim {
+    0% {opacity: 100%;}
+    25%  {opacity: 90%;}
+    50% {opacity: 70%;}
+    75% {opacity: 80%;}
+    100% {opacity: 100%;}
+  }
+  .separator-line-d {
+    margin-top: 0px;
+    width: 550px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 30;
+  }
+
+  .bouncing-text {
+    position: absolute;
+    margin-top: -32.1px;
+    margin-left: 356px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Press Start 2P', cursive; 
+    opacity: 80%;
+  }
+  
+  .b, .u, .c, .d {
+    color: #f0ae4c;
+    margin-left: -6.6px;
+    margin-right: -6.6px;
+  }
+  .o, .n, .e {
+    color: #f0ae4c;
+    margin-left: 4.5px;
+    margin-right: 2.5px;
+  }
+  @keyframes bounce {
+    0%   { transform: scale(1,1) translateY(0);}
+    10%  { transform: scale(1.1,.9) translateY(0);}
+    30%  { transform: scale(.9,1.1)   translateY(-9px);}
+    50%  { transform: scale(1.05,.95) translateY(0);}
+    58%  { transform: scale(1,1) translateY(-7px);}
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);}
+  }
+  @keyframes color-change {
+    0% { color: rgb(255, 21, 21); }
+    16% { color: rgb(255, 137, 11); }
+    32% { color: rgb(255, 226, 5); }
+    48% { color: rgb(119, 255, 8); }
+    64% { color: rgb(71, 227, 255); }
+    80% { color: rgb(42, 74, 255); }
+    100% { color: rgb(188, 20, 255); }
+  }
+
+.b {
+animation: bounce 1.5s ease infinite, color-change 2s infinite;
+}
+.o {
+animation: bounce 2s ease infinite .1s, color-change 2.4s infinite;
+}
+.u {
+animation: bounce 2s ease infinite .2s, color-change 2.8s infinite;
+}
+.n {
+animation: bounce 2s ease infinite .3s, color-change 3.2s infinite;
+}
+.c {
+animation: bounce 2s ease infinite .4s, color-change 3.6s infinite;
+}
+.e {
+animation: bounce 2s ease infinite .5s, color-change 4s infinite;
+}
+.d {
+animation: bounce 2s ease infinite .6s, color-change 4.4s infinite;
+}
 
 
 

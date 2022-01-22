@@ -176,4 +176,12 @@ $("#delete22").click(function() {
     $('#draggable22').hide("blind");
 });
 
+// Counter 23  
+$("#counter23").click(function() {
+    $('#draggable23').toggle("blind");
+});
+$("#delete23").click(function() {
+    $('#draggable23').hide("blind");
+});
+
 });

@@ -1,7 +1,14 @@
 $(document).ready(function(){
 
-    // Note 1    
-    $('wood-bg').click(function() {
-        $("body-bg").addClass("wood-bg-img");
+    // Cork    
+    $('#cork-bg').click(function() {
+        $("#printDiv").removeClass("wood-bg-img");
+        $("#printDiv").addClass("cork-bg-img");
+    });
+
+    // Wood    
+    $('#wood-bg').click(function() {
+        $("#printDiv").removeClass("cork-bg-img");
+        $("#printDiv").addClass("wood-bg-img");
     });
 });
