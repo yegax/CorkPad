@@ -15,22 +15,22 @@ body, .cork-bg-img{
   background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
  }
  .metal-bg-img {
-  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+  background-image: url('https://i.postimg.cc/25TmnYRV/Diamond-Plate002-1-K-Color.jpg');
  }
  .woodgrain-bg-img {
-  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+  background-image: url('https://i.postimg.cc/25Crq6ts/Wood047-1-K-Color.jpg');
  }
  .tiles-bg-img {
-  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+  background-image: url('https://i.postimg.cc/LXXSTW2v/Tiles109-1-K-Roughness.jpg');
  }
  .brick-bg-img {
-  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+  background-image: url('https://i.postimg.cc/Gd99v5BY/Bricks059-1-K-Color.jpg');
  }
  .grass-bg-img {
-  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+  background-image: url('https://i.postimg.cc/nVXjVRBv/Grass004-1-K-Color.jpg');
  }
  .chipboard-bg-img {
-  background-image: url('https://i.postimg.cc/1zc4CLNM/Planks021-1-K-Color.jpg');
+  background-image: url('https://i.postimg.cc/ZRMSDLqm/Chipboard001-1-K-Color.jpg');
  }
 
 
@@ -110,7 +110,7 @@ body, .cork-bg-img{
   border-top-right-radius: 7px;
   opacity: 90%;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 60%);
-  z-index: 10;
+  z-index: 1;
 }
 .panel-twitter {
     position: absolute;
@@ -379,7 +379,7 @@ textarea::placeholder {
   .help-container {
     width: 1000px;
     height: 586px;
-    z-index: 100;
+    z-index: 150;
     border: 1px rgb(0, 0, 0) transparent;
     margin-top: 16px;
     margin-bottom: 0px;
