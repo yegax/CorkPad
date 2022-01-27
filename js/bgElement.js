@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // Brick  
     $('#brick-bg').click(function() {
-        $("#printDiv").removeClass("cork-bg-img wood-bg-img metal-bg-img woodgrain-bg-img, tiles-bg-img, grass-bg-img, chipboard-bg-img");
+        $("#printDiv").removeClass("cork-bg-img wood-bg-img metal-bg-img woodgrain-bg-img tiles-bg-img grass-bg-img chipboard-bg-img");
         $("#printDiv").addClass("brick-bg-img");
     });
 

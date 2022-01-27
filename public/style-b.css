@@ -4,8 +4,21 @@ body{
     background-size:initial;
     overflow: hidden;
 }
+textarea{
+}
 body, .cork-bg-img{
   background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
+}
+.font-arial{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.font-monospace{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+}
+.font-handwritten{
+  font-family: 'Indie Flower', cursive;
+  font-size: 16px;
 }
 
 .cork-bg-img{

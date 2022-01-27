@@ -4,7 +4,9 @@ $(document).ready(function(){
     // Bright Mode Secondary Color
     var $brightSecond = $("#navbar-base, #file-btn-base, #edit-btn-base, #layer-btn-base, #widget-btn-base, #help-btn-base");
     // Bright Mode Main Color      
-    var $brightMain = $("#file-dropdown-theme, #blank-dropdown-theme-a, #pdfDownload, #pngDownload, #jpgDownload, #blank-dropdown-theme-b, #edit-dropdown-theme, #bright-theme, #dark-theme, #settings-dropdown-theme, #font-dropdown-theme, #cork-bg, #wood-bg, #metal-bg, #blank-dropdown-theme-c, #notes-dropdown-theme, #note1, #note2, #note3, #note4, #note5, #note6, #media-dropdown-theme, #media7, #media8, #media9, #media10, #media11, #media12, #list-dropdown-theme, #spotify-dropdown-theme, #counter23, #list13, #list14, #list15, #list16, #list17, #list18, #blank-dropdown-theme-d, #weather-dropdown-theme, #counter21, #twitter-dropdown-theme, #counter20, #calendar-dropdown-theme, #counter22, #counter-dropdown-theme, #counter19, #blank-dropdown-theme-e, #help-button, #manual-button, #about-button, #feedback-button");
+    var $brightMain = $("#file-dropdown-theme, #pdfDownload, #pngDownload, #jpgDownload, #edit-dropdown-theme, #bright-theme, #dark-theme, #settings-dropdown-theme, #font-dropdown-theme, #arial-btn, #monospace-btn, #handwritten-btn, #cork-bg, #wood-bg, #metal-bg,  #woodgrain-bg, #tiles-bg, #brick-bg, #grass-bg, #chipboard-bg, #notes-dropdown-theme, #note1, #note2, #note3, #note4, #note5, #note6, #media-dropdown-theme, #media7, #media8, #media9, #media10, #media11, #media12, #list-dropdown-theme, #spotify-dropdown-theme, #counter23, #list13, #list14, #list15, #list16, #list17, #list18, #weather-dropdown-theme, #counter21, #twitter-dropdown-theme, #counter20, #calendar-dropdown-theme, #counter22, #counter-dropdown-theme, #counter19, #help-button, #manual-button, #about-button, #feedback-button");
+    // Bright Mode blank space    
+    var $brightMainBlank = $("#blank-dropdown-theme-a, #blank-dropdown-theme-b, #blank-dropdown-theme-c, #blank-dropdown-theme-d, #blank-dropdown-theme-e");
 
 
     // Light Mode    
@@ -15,8 +17,12 @@ $(document).ready(function(){
         $("#helpscreen, #helpscreen-txt").addClass("bg-gray-main");
         $("#helpscreen, #helpscreen-txt").removeClass("bg-gray-main-dark-a");
 
-        $("#help-header-theme").addClass("bg-gray-second");
         $("#help-header-theme").removeClass("bg-gray-second-dark-a");
+        $("#help-header-theme").addClass("bg-gray-second");
+
+        $brightMainBlank.removeClass("bg-gray-main-dark-a");
+        $brightMainBlank.addClass("bg-gray-main");
+     
 
         $brightSecond.removeClass("bg-gray-second-dark");
 
