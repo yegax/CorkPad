@@ -4,8 +4,8 @@ body{
     background-size:initial;
     overflow: hidden;
 }
-textarea{
-}
+
+
 body, .cork-bg-img{
   background-image: url('https://i.postimg.cc/Hsr8MfQd/Cork001-1-K-Color.jpg');
 }
@@ -366,7 +366,7 @@ textarea::placeholder {
   .icon-fade{
     color: #fff;
     position: absolute;
-    margin-top: -36.3px;
+    margin-top: -34.5px;
     margin-left: -5.6px;
     z-index: 10;
     font-weight: 600;
@@ -388,7 +388,6 @@ textarea::placeholder {
     background-color: rgba(229, 231, 235, 0);
   }
   
-
   .help-container {
     width: 1000px;
     height: 586px;
@@ -417,8 +416,8 @@ textarea::placeholder {
   }
   .help-scene {
     z-index: 9;
-   }
-   .help-scene-light {
+  }
+  .help-scene-light {
      pointer-events: none;
      margin-left: 666px;
      margin-top: 56px;
