@@ -160,14 +160,19 @@ body, .cork-bg-img{
     color: rgb(0, 0, 0);
 }
 
+.dropdown {
+  opacity: 100%;
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
 .dropdown:hover > .dropdown-content {
 	display: block;
-  animation: fadeIn 0.25s;
+  animation: fadeIn 0.35s;
 }
+
 
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -211,7 +216,7 @@ textarea::placeholder {
 }
 
 .dropdown-outline{
-  outline: rgba(153, 153, 153, 0.1);
+  outline: rgba(153, 153, 153, 0.0);
   outline-width: 0px;
   outline-style: solid;
   outline-offset: -5px;
@@ -238,15 +243,15 @@ textarea::placeholder {
   margin-top: -38px;
 }
 .margl-c{
-  margin-left: 131px;
+  margin-left: 138.5px;
   margin-top: -38.5px;
 }
 .margl-d{
-  margin-left: 132px;
+  margin-left: 129.5px;
   margin-top: -38.5px;
 }
 .margl-e{
-  margin-left: 133px;
+  margin-left: 130px;
   margin-top: -39.4px;
 }
 .margl-f{
@@ -257,12 +262,30 @@ textarea::placeholder {
   padding-left: 30px;
 }
 .margl-h{
-  margin-left: 124.5px;
+  margin-left: 123.7px;
   margin-top: -39.4px;
 }
 .margl-i{
   padding-left: 32.5px;
   padding-right: 32.5px;
+  margin-right: 10px;
+}
+.margl-j{
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-left: -2px;
+}
+.margl-k{
+  margin-left: 129.5px;
+  margin-top: -38.5px;
+}
+.margl-l{
+  padding-left: 40px;
+  padding-right: 43px;
+}
+.margl-m{
+  margin-left: 129.5px;
+  margin-top: -39.4px;
 }
 
 .counter, .reset, .themes, .minus {
