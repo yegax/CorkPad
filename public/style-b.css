@@ -393,7 +393,22 @@ textarea::placeholder {
     margin-left: -5.6px;
     z-index: 10;
     font-weight: 600;
-    background: linear-gradient(to right,rgb(248, 255, 123) 10%, #89d6ff 40%, rgb(86, 159, 255) 50%);
+    background: linear-gradient(90deg, rgba(30,86,129,1) 0%, rgba(65,115,148,1) 51%, rgba(100,165,205,1) 77%, rgba(120,199,247,1) 98%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 6.8s linear infinite;
+  }
+  .icon-fade-dark{
+    color: #fff;
+    position: absolute;
+    margin-top: -34.5px;
+    margin-left: -5.6px;
+    z-index: 10;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgba(255,252,238,1) 0%, rgba(245,224,138,1) 38%, rgba(255,219,95,1) 67%, rgba(255,203,10,1) 100%);
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
@@ -478,7 +493,7 @@ textarea::placeholder {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Press Start 2P', cursive; 
-    opacity: 80%;
+    opacity: 70%;
   }
   
   .b, .u, .c, .d {

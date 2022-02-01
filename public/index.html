@@ -27,17 +27,16 @@
     <div id="navbar-base" class="flex-row bg-gray-main py-1 px-1 shadow-lg z-50 relative"> 
 
         <button class="text-black py-0 px-2 mr-28 "> 
-            <a class="icon-font icon-shadow flex icon-fade rounded cursor-default">CorkPad</a>
+            <a id="icon-fade" class="icon-font icon-shadow flex icon-fade rounded cursor-default">CorkPad</a>
         </button>
     
     <img class="opacity-0 hidden inline-block cursor-default rounded mx-2 " src="https://i.postimg.cc/MZcsr4WF/corkpad-logo.png" alt="developer desk" style="height: 9%; width: 9%;">
 
     <div class="dropdown inline-block">
         <button id="file-btn-base" class="bg-gray-second hover:bg-gray-400 text-black font-mono py-2 px-9 rounded transition-colors transition duration-500 textshadow-c"> File
-            <svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="16.5" fill="currentColor" class="bi bi-house-door-fill float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
-                <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293V6.5z"/>
-                <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+              </svg>
         </button>
         <ul class="dropdown-opacity dropdown-content absolute hidden text-gray-700">
             <li class="dropdown">
@@ -48,9 +47,21 @@
                     <p class="inline-block mx-1 float-right"> ❯ </p>  
                 </a> 
                 <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 margl-b margl cursor-pointer">
-                    <li class="dropdown-outline"> <buton id="pdfDownload" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PDF</button> </li> 
-                    <li class="dropdown-outline"> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">PNG</button> </li>
-                    <li class="dropdown-outline"> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-7 block whitespace-no-wrap">JPG</button> </li>
+                    <li class="dropdown-outline"> <buton id="pdfDownload" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 pr-8 block whitespace-no-wrap">PDF 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-filetype-pdf float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
+                        </svg>
+                    </button> </li>                    
+                    <li class="dropdown-outline"> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-0 block whitespace-no-wrap">PNG
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-filetype-png float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-3.76 8.132c.076.153.123.317.14.492h-.776a.797.797 0 0 0-.097-.249.689.689 0 0 0-.17-.19.707.707 0 0 0-.237-.126.96.96 0 0 0-.299-.044c-.285 0-.506.1-.665.302-.156.201-.234.484-.234.85v.498c0 .234.032.439.097.615a.881.881 0 0 0 .304.413.87.87 0 0 0 .519.146.967.967 0 0 0 .457-.096.67.67 0 0 0 .272-.264c.06-.11.091-.23.091-.363v-.255H8.82v-.59h1.576v.798c0 .193-.032.377-.097.55a1.29 1.29 0 0 1-.293.458 1.37 1.37 0 0 1-.495.313c-.197.074-.43.111-.697.111a1.98 1.98 0 0 1-.753-.132 1.447 1.447 0 0 1-.533-.377 1.58 1.58 0 0 1-.32-.58 2.482 2.482 0 0 1-.105-.745v-.506c0-.362.067-.678.2-.95.134-.271.328-.482.582-.633.256-.152.565-.228.926-.228.238 0 .45.033.636.1.187.066.348.158.48.275.133.117.238.253.314.407Zm-8.64-.706H0v4h.791v-1.343h.803c.287 0 .531-.057.732-.172.203-.118.358-.276.463-.475a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.475-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.381.574.574 0 0 1-.238.24.794.794 0 0 1-.375.082H.788v-1.406h.66c.218 0 .389.06.512.182.123.12.185.295.185.521Zm1.964 2.666V13.25h.032l1.761 2.675h.656v-3.999h-.75v2.66h-.032l-1.752-2.66h-.662v4h.747Z"/>
+                        </svg>
+                    </button> </li>
+                    <li class="dropdown-outline"> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-0 block whitespace-no-wrap">JPG
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-filetype-jpg float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-4.34 8.132c.076.153.123.317.14.492h-.776a.797.797 0 0 0-.097-.249.689.689 0 0 0-.17-.19.707.707 0 0 0-.237-.126.96.96 0 0 0-.299-.044c-.285 0-.507.1-.665.302-.156.201-.234.484-.234.85v.498c0 .234.032.439.097.615a.881.881 0 0 0 .304.413.87.87 0 0 0 .519.146.967.967 0 0 0 .457-.096.67.67 0 0 0 .272-.264c.06-.11.091-.23.091-.363v-.255H8.24v-.59h1.576v.798c0 .193-.032.377-.097.55a1.29 1.29 0 0 1-.293.458 1.37 1.37 0 0 1-.495.313c-.197.074-.43.111-.697.111a1.98 1.98 0 0 1-.753-.132 1.447 1.447 0 0 1-.533-.377 1.58 1.58 0 0 1-.32-.58 2.482 2.482 0 0 1-.105-.745v-.506c0-.362.066-.678.2-.95.134-.271.328-.482.582-.633.256-.152.565-.228.926-.228.238 0 .45.033.636.1.187.066.347.158.48.275.133.117.238.253.314.407ZM0 14.786c0 .164.027.319.082.465.055.147.136.277.243.39.11.113.245.202.407.267.164.062.354.093.569.093.42 0 .748-.115.984-.345.238-.23.358-.566.358-1.005v-2.725h-.791v2.745c0 .202-.046.357-.138.466-.092.11-.233.164-.422.164a.499.499 0 0 1-.454-.246.577.577 0 0 1-.073-.27H0Zm4.92-2.86H3.322v4h.791v-1.343h.803c.287 0 .531-.057.732-.172.203-.118.358-.276.463-.475.108-.201.161-.427.161-.677 0-.25-.052-.475-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.546 1.333a.795.795 0 0 1-.085.381.574.574 0 0 1-.238.24.794.794 0 0 1-.375.082H4.11v-1.406h.66c.218 0 .389.06.512.182.123.12.185.295.185.521Z"/>
+                          </svg>
+                    </button> </li>
                 </ul>
             </li>
         </ul>
@@ -58,7 +69,7 @@
 
     <div class="dropdown inline-block">
         <button id="edit-btn-base" class="bg-gray-second hover:bg-gray-400 text-black font-mono py-2 px-9 rounded transition-colors transition duration-500 textshadow-c">Edit
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square-dots-fill float-left mx-1 my-1" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-chat-square-dots-fill float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
                 <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
                 <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
             </svg>
@@ -169,10 +180,9 @@
 
     <div class="dropdown inline-block">
         <button id="layer-btn-base" class="bg-gray-second hover:bg-gray-400 text-black font-mono py-2 px-8 rounded transition-colors transition duration-500 textshadow-c"> Layers
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-house-door-fill float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
-                <path d="M1.5 2.5A1.5 1.5 0 0 1 3 1h10a1.5 1.5 0 0 1 1.5 1.5v3.563a2 2 0 0 1 0 3.874V13.5A1.5 1.5 0 0 1 13 15H3a1.5 1.5 0 0 1-1.5-1.5V9.937a2 2 0 0 1 0-3.874V2.5zm1 3.563a2 2 0 0 1 0 3.874V13.5a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V9.937a2 2 0 0 1 0-3.874V2.5A.5.5 0 0 0 13 2H3a.5.5 0 0 0-.5.5v3.563zM2 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm12 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                <path d="M11.434 4H4.566L4.5 5.994h.386c.21-1.252.612-1.446 2.173-1.495l.343-.011v6.343c0 .537-.116.665-1.049.748V12h3.294v-.421c-.938-.083-1.054-.21-1.054-.748V4.488l.348.01c1.56.05 1.963.244 2.173 1.496h.386L11.434 4z"/>
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-layers float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                <path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zm3.515 7.008L14.438 10 8 13.433 1.562 10 4.25 8.567l3.515 1.874a.5.5 0 0 0 .47 0l3.515-1.874zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z"/>
+              </svg>
         </button>
         <ul class="dropdown-content dropdown-opacity absolute hidden text-gray-700">
             <li class="dropdown">
@@ -288,8 +298,6 @@
 
                 <a class="margl-g text-center dropdown-outline bg-gray-main hover:bg-gray-300 py-2 block whitespace-no-wrap cursor-pointer" id="help-button">Help</a> 
 
-                <a class="margl-g text-center dropdown-outline bg-gray-main hover:bg-gray-300 py-2 block whitespace-no-wrap cursor-pointer" id="manual-button">Guide</a> 
-
                 <a class="margl-g text-center dropdown-outline bg-gray-main hover:bg-gray-300 py-2 block whitespace-no-wrap cursor-pointer" id="about-button">About</a> 
 
                 <a class="margl-g text-center dropdown-outline bg-gray-main hover:bg-gray-300 py-2 block whitespace-no-wrap rounded-b cursor-pointer" id="feedback-button">Feedback</a> 
@@ -341,7 +349,91 @@
             <ul></ul>
           </div>
           <div class="flex-col flex-shrink-0 help-scene">
-            <img src="https://i.postimg.cc/VN3TngSb/postit-bg-img.png" class="" alt="developer desk" style="height: 100%; width: 62%; opacity: 80%;">
+            <img src="https://i.postimg.cc/VN3TngSb/postit-bg-img.png" class="" alt="developer desk" style="height: 100%; width: 62%; opacity: 90%;">
+          </div>
+        </div>
+      </div>
+      
+      <div class="hidden help-container bg-gray-main flex-auto mx-auto relative" id="aboutscreen">
+        <div id="about-header-theme" class="help-container-header bg-gray-second">
+          <button id="close-about" class="mx-1 my-1 cursor-pointer float-right relative z-10">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="black" class="bi bi-x-square-fill opacity-40" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z"/>
+          </svg>
+          </button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="black" class="bi bi-question-square-fill float-left mx-1 my-1 opacity-40" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+          </svg>
+          <h1 class="py-0.5 px-7 cursor-default"> About </h1>
+        </div>
+        <div id="aboutscreen-txt" class="cursor-default flex flex-row px-1 py-3">
+          <div class="flex-col">
+            <h1 class="text-4xl opacity-50"> Welcome to <b class="opacity-90">CorkPad</b></h1>
+            <div class="bouncing-text">
+                <div class="b">v</div>
+                <div class="o">.</div>
+                <div class="u">0</div>
+                <div class="n">.</div>
+                <div class="c">2</div>
+                <div class="e">.</div>
+                <div class="d">0</div>
+                <div class="shadow"></div>
+                <div class="shadow-two"></div>
+            </div>
+            <p class="text-3xl opacity-50 font-light">Note Processing Desktop Environment</p>
+            <div id="help-separator-line-l" class="separator-line-l"> </div>
+            <div id="help-separator-line-d" class="separator-line-d"> </div>
+            <ul class="mt-3 text-2xl opacity-50 font-light">CorkPad allows you to:</ul> 
+            <p class="text-2xl opacity-50 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei usmod tempor incididunt sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
+            <li class="text-2xl opacity-50 font-light"> Filters: Allows you to apply predefined. </li>
+            <li class="text-2xl opacity-50 font-light"> Viewport: Camera source display.</li> 
+            <li class="text-2xl opacity-50 font-light"> Capture: Settings for photo capturing. </li>
+            <ul></ul>
+          </div>
+          <div class="flex-col flex-shrink-0 help-scene">
+            <img src="https://i.postimg.cc/VN3TngSb/postit-bg-img.png" class="" alt="developer desk" style="height: 100%; width: 62%; opacity: 90%;">
+          </div>
+        </div>
+      </div>
+
+      <div class="hidden help-container bg-gray-main flex-auto mx-auto relative" id="feedbackscreen">
+        <div id="feedback-header-theme" class="help-container-header bg-gray-second">
+          <button id="close-feedback" class="mx-1 my-1 cursor-pointer float-right relative z-10">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="black" class="bi bi-x-square-fill opacity-40" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708z"/>
+          </svg>
+          </button>
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="black" class="bi bi-question-square-fill float-left mx-1 my-1 opacity-40" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+          </svg>
+          <h1 class="py-0.5 px-7 cursor-default"> Feedback </h1>
+        </div>
+        <div id="feedbackscreen-txt" class="cursor-default flex flex-row px-1 py-3">
+          <div class="flex-col">
+            <h1 class="text-4xl opacity-50"> Welcome to <b class="opacity-90">CorkPad</b></h1>
+            <div class="bouncing-text">
+                <div class="b">v</div>
+                <div class="o">.</div>
+                <div class="u">0</div>
+                <div class="n">.</div>
+                <div class="c">2</div>
+                <div class="e">.</div>
+                <div class="d">0</div>
+                <div class="shadow"></div>
+                <div class="shadow-two"></div>
+            </div>
+            <p class="text-3xl opacity-50 font-light">Note Processing Desktop Environment</p>
+            <div id="help-separator-line-l" class="separator-line-l"> </div>
+            <div id="help-separator-line-d" class="separator-line-d"> </div>
+            <ul class="mt-3 text-2xl opacity-50 font-light">CorkPad allows you to:</ul> 
+            <p class="text-2xl opacity-50 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei usmod tempor incididunt sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
+            <li class="text-2xl opacity-50 font-light"> Filters: Allows you to apply predefined. </li>
+            <li class="text-2xl opacity-50 font-light"> Viewport: Camera source display.</li> 
+            <li class="text-2xl opacity-50 font-light"> Capture: Settings for photo capturing. </li>
+            <ul></ul>
+          </div>
+          <div class="flex-col flex-shrink-0 help-scene">
+            <img src="https://i.postimg.cc/VN3TngSb/postit-bg-img.png" class="" alt="developer desk" style="height: 100%; width: 62%; opacity: 90%;">
           </div>
         </div>
       </div>
@@ -1067,7 +1159,7 @@
 
 
 
-
+<!--
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/dragElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/statusElement.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/colorElement.js"></script>
@@ -1078,7 +1170,7 @@
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/theme-bright.js"></script>
     <script src="https://combinatronics.com/yegax/CorkPad/main/js/fontElement.js"></script> 
 
-<!--
+-->
     <script src="/js/counterElement.js"></script>
     <script src="/js/colorElement.js"></script>
     <script src="/js/dragElement.js"></script>
@@ -1088,7 +1180,7 @@
     <script src="/js/theme.js"></script>  
     <script src="/js/theme-bright.js"></script>  
     <script src="/js/fontElement.js"></script>  
--->
+
 
 </body>
 

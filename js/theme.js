@@ -10,13 +10,15 @@ $(document).ready(function(){
     // Dark Mode    
     $("#dark-theme").click(function() {
 
+        $("#icon-fade").addClass("icon-fade-dark");
+
         $("#navbar-base").addClass("bg-gray-main-dark-a");
 
-        $("#helpscreen, #helpscreen-txt").removeClass("bg-gray-main");
-        $("#helpscreen, #helpscreen-txt").addClass("bg-gray-main-dark-a");
+        $("#helpscreen, #helpscreen-txt, #feedbackscreen, feedbackscreen-txt, #aboutscreen, #aboutscreen-txt").removeClass("bg-gray-main");
+        $("#helpscreen, #helpscreen-txt, #feedbackscreen, feedbackscreen-txt, #aboutscreen, #aboutscreen-txt").addClass("bg-gray-main-dark-a");
 
-        $("#help-header-theme").removeClass("bg-gray-second");
-        $("#help-header-theme").addClass("bg-gray-second-dark-a");
+        $("#help-header-theme, #about-header-theme, #feedback-header-theme").removeClass("bg-gray-second");
+        $("#help-header-theme, #about-header-theme, #feedback-header-theme").addClass("bg-gray-second-dark-a");
 
         $brightMainBlank.removeClass("bg-gray-main");
         $brightMainBlank.addClass("bg-gray-main-dark-a");
