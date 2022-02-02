@@ -448,7 +448,7 @@ textarea::placeholder {
   }
   .separator-line-l {
     margin-top: 10px;
-    width: 550px;
+    width: 492px;
     height: 1px;
     background-color: rgba(26, 26, 26, 0.2);
     z-index: 30;
@@ -480,7 +480,7 @@ textarea::placeholder {
   }
   .separator-line-d {
     margin-top: 0px;
-    width: 550px;
+    width: 492px;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.2);
     z-index: 30;
@@ -550,6 +550,10 @@ animation: bounce 2s ease infinite .6s, color-change 4.4s infinite;
 
 .form-text-md{
   font-size: 17.5px;
+}
+.form-text-md-2{
+  font-size: 19px;
+  font-weight: 400;
 }
 .font-form{
   background-color: rgba(255, 255, 255, 0.522);
