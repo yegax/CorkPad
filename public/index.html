@@ -425,11 +425,31 @@
             <p class="text-3xl opacity-50 font-light">Note Processing Desktop Environment</p>
             <div id="help-separator-line-l" class="separator-line-l"> </div>
             <div id="help-separator-line-d" class="separator-line-d"> </div>
-            <ul class="mt-3 text-2xl opacity-50 font-light">CorkPad allows you to:</ul> 
-            <p class="text-2xl opacity-50 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei usmod tempor incididunt sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
-            <li class="text-2xl opacity-50 font-light"> Filters: Allows you to apply predefined. </li>
-            <li class="text-2xl opacity-50 font-light"> Viewport: Camera source display.</li> 
-            <li class="text-2xl opacity-50 font-light"> Capture: Settings for photo capturing. </li>
+            <div>
+                <form class="mt-3 font-light" accept-charset="UTF-8" action="https://getform.io/f/d783e207-0716-4486-98df-feeddc5516f9" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
+                    <p class="mt-3 text-2xl opacity-50 font-semibold">Contact / Feedback:</p>
+                   <div>
+                      <label class="text-2xl opacity-50">Name:</label>
+                      <div>
+                         <input id="name-form" class="font-form mt-1 px-1 form-text-md font-light" size="38" type="text" name="first_name" placeholder="Enter your name" placeholder="" required="required">
+                      </div>
+                   </div>
+                   <div class="mt-2">
+                      <label class="text-2xl opacity-50 font-light">Email address:</label>
+                      <div>
+                         <input id="email-form" class="font-form mt-1 px-1 form-text-md font-light" size="38" type="email" name="email" placeholder="Enter your email" placeholder="" required="required">
+                      </div>
+                   </div>
+                   <div class="mt-2">
+                      <label class="text-2xl opacity-50 font-light">Your Message:</label>
+                      <div>
+                         <textarea id="message-form" class="font-form mt-1 form-text-md px-1 font-light" style="resize: none;" rows="4" cols="65" type="text" name="message" placeholder="Enter your message" required="required"></textarea>
+                      </div>
+                   </div>
+                   <input type="hidden" name="utf8" value="✓">
+                   <button id="form-submit-btn" class="form-submit-slide-default form-submit-slide form-submit-left font-bold rounded transition-colors transition duration-400" style="font-size:14px; padding:10px 60px; margin: 13px 0 0 0;" type="submit">SUBMIT</button>
+                </form>
+             </div>
             <ul></ul>
           </div>
           <div class="flex-col flex-shrink-0 help-scene">
@@ -459,7 +479,7 @@
                 </a>
                 <p class="font-bold"> Note 1 </p>
             </div>
-            <textarea class="bg-clear res resize-none" rows="10" cols="32"> </textarea>
+            <textarea class="bg-clear resize-none" rows="10" cols="32"> </textarea>
         </div>
     </section>
 
@@ -1156,6 +1176,7 @@
     <script>
         !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
     </script>   
+    
 
 
 

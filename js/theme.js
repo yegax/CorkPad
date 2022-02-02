@@ -20,6 +20,12 @@ $(document).ready(function(){
         $("#help-header-theme, #about-header-theme, #feedback-header-theme").removeClass("bg-gray-second");
         $("#help-header-theme, #about-header-theme, #feedback-header-theme").addClass("bg-gray-second-dark-a");
 
+        $("#name-form, #email-form, #message-form").removeClass("font-form-light");
+        $("#name-form, #email-form, #message-form").addClass("font-form-dark");
+
+        $("#form-submit-btn").removeClass("form-submit-light");
+        $("#form-submit-btn").addClass("form-submit-dark");
+
         $brightMainBlank.removeClass("bg-gray-main");
         $brightMainBlank.addClass("bg-gray-main-dark-a");
 

@@ -22,6 +22,12 @@ $(document).ready(function(){
         $("#help-header-theme, #about-header-theme, #feedback-header-theme").removeClass("bg-gray-second-dark-a");
         $("#help-header-theme, #about-header-theme, #feedback-header-theme").addClass("bg-gray-second");
 
+        $("#name-form, #email-form, #message-form").removeClass("font-form-dark");
+        $("#name-form, #email-form, #message-form").addClass("font-form-light");
+
+        $("#form-submit-btn").removeClass("form-submit-dark");
+        $("#form-submit-btn").addClass("form-submit-light");
+
         $brightMainBlank.removeClass("bg-gray-main-dark-a");
         $brightMainBlank.addClass("bg-gray-main");
      
