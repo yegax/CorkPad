@@ -489,7 +489,7 @@ textarea::placeholder {
   .bouncing-text {
     position: absolute;
     margin-top: -32.1px;
-    margin-left: 356px;
+    margin-left: 360px;
     display: flex;
     font-size: 20px;
     font-weight: 600;
