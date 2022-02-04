@@ -46,19 +46,21 @@
                 <a id="file-dropdown-theme" class="dropdown-outline bg-gray-200 hover:bg-gray-300 py-2 px-85 block whitespace-no-wrap rounded-b cursor-pointer">Export
                     <p class="inline-block mx-1 float-right"> ❯ </p>  
                 </a> 
-                <ul class="dropdown-content absolute hidden text-gray-700 pl-95 ml-24 margl-b margl cursor-pointer">
-                    <li class="dropdown-outline"> <buton id="pdfDownload" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 pr-8 block whitespace-no-wrap">PDF 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-filetype-pdf float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                <ul class="dropdown-content absolute hidden text-gray-700 margl-b cursor-pointer">
+                    <li class="dropdown-outline"> 
+                        <button id="pdfDownload" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 margl-o block whitespace-no-wrap"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-filetype-pdf float-left mx-0.5 my-0.5 opacity-80" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
                         </svg>
-                    </button> </li>                    
-                    <li class="dropdown-outline"> <buton id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-0 block whitespace-no-wrap">PNG
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-filetype-png float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                        </button> 
+                    </li>                    
+                    <li class="dropdown-outline"> <button id="pngDownload" type="button" class="bg-gray-200 hover:bg-gray-300 margl-o block whitespace-no-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-filetype-png float-left mx-0.5 my-0.5 opacity-80" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-3.76 8.132c.076.153.123.317.14.492h-.776a.797.797 0 0 0-.097-.249.689.689 0 0 0-.17-.19.707.707 0 0 0-.237-.126.96.96 0 0 0-.299-.044c-.285 0-.506.1-.665.302-.156.201-.234.484-.234.85v.498c0 .234.032.439.097.615a.881.881 0 0 0 .304.413.87.87 0 0 0 .519.146.967.967 0 0 0 .457-.096.67.67 0 0 0 .272-.264c.06-.11.091-.23.091-.363v-.255H8.82v-.59h1.576v.798c0 .193-.032.377-.097.55a1.29 1.29 0 0 1-.293.458 1.37 1.37 0 0 1-.495.313c-.197.074-.43.111-.697.111a1.98 1.98 0 0 1-.753-.132 1.447 1.447 0 0 1-.533-.377 1.58 1.58 0 0 1-.32-.58 2.482 2.482 0 0 1-.105-.745v-.506c0-.362.067-.678.2-.95.134-.271.328-.482.582-.633.256-.152.565-.228.926-.228.238 0 .45.033.636.1.187.066.348.158.48.275.133.117.238.253.314.407Zm-8.64-.706H0v4h.791v-1.343h.803c.287 0 .531-.057.732-.172.203-.118.358-.276.463-.475a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.475-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.381.574.574 0 0 1-.238.24.794.794 0 0 1-.375.082H.788v-1.406h.66c.218 0 .389.06.512.182.123.12.185.295.185.521Zm1.964 2.666V13.25h.032l1.761 2.675h.656v-3.999h-.75v2.66h-.032l-1.752-2.66h-.662v4h.747Z"/>
                         </svg>
                     </button> </li>
-                    <li class="dropdown-outline"> <buton id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-0 block whitespace-no-wrap">JPG
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-filetype-jpg float-left mx-0.5 my-0.5" viewBox="0 0 16 16">
+                    <li class="dropdown-outline"> <button id="jpgDownload" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 margl-o block whitespace-no-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-filetype-jpg float-left mx-0.5 my-0.5 opacity-80" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-4.34 8.132c.076.153.123.317.14.492h-.776a.797.797 0 0 0-.097-.249.689.689 0 0 0-.17-.19.707.707 0 0 0-.237-.126.96.96 0 0 0-.299-.044c-.285 0-.507.1-.665.302-.156.201-.234.484-.234.85v.498c0 .234.032.439.097.615a.881.881 0 0 0 .304.413.87.87 0 0 0 .519.146.967.967 0 0 0 .457-.096.67.67 0 0 0 .272-.264c.06-.11.091-.23.091-.363v-.255H8.24v-.59h1.576v.798c0 .193-.032.377-.097.55a1.29 1.29 0 0 1-.293.458 1.37 1.37 0 0 1-.495.313c-.197.074-.43.111-.697.111a1.98 1.98 0 0 1-.753-.132 1.447 1.447 0 0 1-.533-.377 1.58 1.58 0 0 1-.32-.58 2.482 2.482 0 0 1-.105-.745v-.506c0-.362.066-.678.2-.95.134-.271.328-.482.582-.633.256-.152.565-.228.926-.228.238 0 .45.033.636.1.187.066.347.158.48.275.133.117.238.253.314.407ZM0 14.786c0 .164.027.319.082.465.055.147.136.277.243.39.11.113.245.202.407.267.164.062.354.093.569.093.42 0 .748-.115.984-.345.238-.23.358-.566.358-1.005v-2.725h-.791v2.745c0 .202-.046.357-.138.466-.092.11-.233.164-.422.164a.499.499 0 0 1-.454-.246.577.577 0 0 1-.073-.27H0Zm4.92-2.86H3.322v4h.791v-1.343h.803c.287 0 .531-.057.732-.172.203-.118.358-.276.463-.475.108-.201.161-.427.161-.677 0-.25-.052-.475-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.546 1.333a.795.795 0 0 1-.085.381.574.574 0 0 1-.238.24.794.794 0 0 1-.375.082H4.11v-1.406h.66c.218 0 .389.06.512.182.123.12.185.295.185.521Z"/>
                           </svg>
                     </button> </li>
@@ -99,8 +101,40 @@
                 </li>
 
                 <li class="dropdown">
-                    <a id="settings-dropdown-theme" class="bg-gray-main hover:bg-gray-300 py-2 margl-j rounded-tr block whitespace-no-wrap cursor-pointer">Material
-                        <p class="inline-block ml-1 float-right"> ❯ </p>                  
+                    <a id="material-dropdown-theme" class="bg-gray-main hover:bg-gray-300 margl-j rounded-tr block whitespace-no-wrap cursor-pointer">Material
+                        <a id="material-dropdown-theme-a" class="inline-block mx-5 -my-8 float-right"> ❯ </a>            
+                    </a> 
+                    <ul class="dropdown-content absolute hidden text-gray-700 margl-h cursor-pointer">
+                        <li class=""> <buton id="cork-bg" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Cork</button> </li> 
+                        <li class=""> <buton id="wood-bg" type="button" class="bg-gray-200 hove r:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Wood</button> </li>
+                        <li class=""> <buton id="metal-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Metal</button> </li>
+                        <li class=""> <buton id="woodgrain-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">WoodGrain</button> </li>
+                        <li class=""> <buton id="tiles-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Tiles</button> </li>    
+                        <li class=""> <buton id="brick-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Brick</button> </li>
+                        <li class=""> <buton id="grass-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Grass</button> </li>
+                        <li class=""> <buton id="chipboard-bg" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">ChipBoard</button> </li>   
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a id="solid-dropdown-theme" class="bg-gray-main hover:bg-gray-300 margl-j block whitespace-no-wrap cursor-pointer">Gradient
+                        <a id="solid-dropdown-theme-a" class="inline-block mx-5 -my-8 float-right"> ❯ </a>  
+                    </a> 
+                    <ul class="dropdown-content absolute hidden text-gray-700 margl-h cursor-pointer">
+                        <li class=""> <buton id="cork-bg" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Gray</button> </li> 
+                        <li class=""> <buton id="wood-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Black</button> </li>
+                        <li class=""> <buton id="metal-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">White</button> </li>
+                        <li class=""> <buton id="woodgrain-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Sky</button> </li>
+                        <li class=""> <buton id="tiles-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Sunrise</button> </li>    
+                        <li class=""> <buton id="brick-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Multicolor</button> </li>
+                        <li class=""> <buton id="grass-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Rainbow</button> </li>
+                        <li class=""> <buton id="chipboard-bg" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">ChipBoard</button> </li>   
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a id="video-dropdown-theme" class="bg-gray-main hover:bg-gray-300 margl-j block whitespace-no-wrap cursor-pointer">Videos
+                        <a id="video-dropdown-theme-a" class="inline-block  mx-5 -my-8  float-right"> ❯ </a>                  
                     </a> 
                     <ul class="dropdown-content absolute hidden text-gray-700 margl-h cursor-pointer">
                         <li class=""> <buton id="cork-bg" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Cork</button> </li> 
@@ -115,40 +149,8 @@
                 </li>
 
                 <li class="dropdown">
-                    <a id="settings-dropdown-theme" class="bg-gray-main hover:bg-gray-300 py-2 margl-j block whitespace-no-wrap cursor-pointer">Solid
-                        <p class="inline-block ml-1 float-right"> ❯ </p>  
-                    </a> 
-                    <ul class="dropdown-content absolute hidden text-gray-700 margl-h cursor-pointer">
-                        <li class=""> <buton id="cork-bg" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Cork</button> </li> 
-                        <li class=""> <buton id="wood-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Wood</button> </li>
-                        <li class=""> <buton id="metal-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Metal</button> </li>
-                        <li class=""> <buton id="woodgrain-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">WoodGrain</button> </li>
-                        <li class=""> <buton id="tiles-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Tiles</button> </li>    
-                        <li class=""> <buton id="brick-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Brick</button> </li>
-                        <li class=""> <buton id="grass-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Grass</button> </li>
-                        <li class=""> <buton id="chipboard-bg" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">ChipBoard</button> </li>   
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a id="settings-dropdown-theme" class="bg-gray-main hover:bg-gray-300 py-2 margl-j block whitespace-no-wrap cursor-pointer">Videos
-                        <p class="inline-block ml-1 float-right"> ❯ </p>                  
-                    </a> 
-                    <ul class="dropdown-content absolute hidden text-gray-700 margl-h cursor-pointer">
-                        <li class=""> <buton id="cork-bg" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Cork</button> </li> 
-                        <li class=""> <buton id="wood-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Wood</button> </li>
-                        <li class=""> <buton id="metal-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Metal</button> </li>
-                        <li class=""> <buton id="woodgrain-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">WoodGrain</button> </li>
-                        <li class=""> <buton id="tiles-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Tiles</button> </li>    
-                        <li class=""> <buton id="brick-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Brick</button> </li>
-                        <li class=""> <buton id="grass-bg" type="button" class="bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Grass</button> </li>
-                        <li class=""> <buton id="chipboard-bg" type="button" class="rounded-b bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">ChipBoard</button> </li>   
-                    </ul>
-                </li>
-
-                <li class="dropdown">
-                    <a id="settings-dropdown-theme" class="bg-gray-main hover:bg-gray-300 py-2 margl-j rounded-b block whitespace-no-wrap cursor-pointer">Custom
-                        <p class="inline-block ml-1 float-right"> ❯ </p>                  
+                    <a id="custom-dropdown-theme" class="bg-gray-main hover:bg-gray-300 margl-j rounded-b block whitespace-no-wrap cursor-pointer">Custom
+                        <a id="custom-dropdown-theme-a" class="inline-block  mx-5 -my-8  float-right"> ❯ </a>                  
                     </a> 
                     <ul class="dropdown-content absolute hidden text-gray-700 margl-h cursor-pointer">
                         <li class=""> <buton id="cork-bg" type="button" class="rounded-tr bg-gray-200 hover:bg-gray-300 py-2 px-6 block whitespace-no-wrap">Cork</button> </li> 
@@ -325,22 +327,23 @@
           <h1 class="py-0.5 px-7 cursor-default"> Help </h1>
         </div>
         <div id="helpscreen-txt" class="cursor-default flex flex-row px-1 py-3">
-          <div class="flex-col">
-            <h1 class="text-4xl opacity-50"> Welcome to <b class="opacity-90">CorkPad</b></h1>
-            <div class="bouncing-text">
-                <div class="b">v</div>
-                <div class="o">.</div>
-                <div class="u">0</div>
-                <div class="n">.</div>
-                <div class="c">2</div>
-                <div class="e">.</div>
-                <div class="d">0</div>
-                <div class="shadow"></div>
-                <div class="shadow-two"></div>
-            </div>
-            <p class="text-3xl opacity-50 font-light">Note Processing Desktop Environment</p>
-            <div id="help-separator-line-l" class="separator-line-l"> </div>
-            <div id="help-separator-line-d" class="separator-line-d"> </div>
+            <div class="flex-col">
+                <h1 class="help-header-text-1 opacity-50"> Welcome to <b class="opacity-90">CorkPad</b></h1>
+                <div class="bouncing-text">
+                    <div class="b">v</div>
+                    <div class="o">.</div>
+                    <div class="u">0</div>
+                    <div class="n">.</div>
+                    <div class="c">2</div>
+                    <div class="e">.</div>
+                    <div class="d">0</div>
+                    <div class="shadow"></div>
+                    <div class="shadow-two"></div>
+                </div>
+                <p class="help-header-text-2 opacity-50 font-thin">Note Processing Desktop Environment</p>
+                <div id="help-separator-line-l" class="separator-line-l"> </div>
+                <div id="help-separator-line-d" class="separator-line-d"> </div>
+
             <ul class="mt-3 text-2xl opacity-50 font-light">CorkPad allows you to:</ul> 
             <p class="text-2xl opacity-50 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei usmod tempor incididunt sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
             <li class="text-2xl opacity-50 font-light"> Filters: Allows you to apply predefined. </li>
@@ -367,28 +370,27 @@
           <h1 class="py-0.5 px-7 cursor-default"> About </h1>
         </div>
         <div id="aboutscreen-txt" class="cursor-default flex flex-row px-1 py-3">
-          <div class="flex-col">
-            <h1 class="text-4xl opacity-50"> Welcome to <b class="opacity-90">CorkPad</b></h1>
-            <div class="bouncing-text">
-                <div class="b">v</div>
-                <div class="o">.</div>
-                <div class="u">0</div>
-                <div class="n">.</div>
-                <div class="c">2</div>
-                <div class="e">.</div>
-                <div class="d">0</div>
-                <div class="shadow"></div>
-                <div class="shadow-two"></div>
-            </div>
-            <p class="text-3xl opacity-50 font-light">Note Processing Desktop Environment</p>
-            <div id="help-separator-line-l" class="separator-line-l"> </div>
-            <div id="help-separator-line-d" class="separator-line-d"> </div>
-            <ul class="mt-3 text-2xl opacity-50 font-light">CorkPad allows you to:</ul> 
-            <p class="text-2xl opacity-50 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei usmod tempor incididunt sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
-            <li class="text-2xl opacity-50 font-light"> Filters: Allows you to apply predefined. </li>
-            <li class="text-2xl opacity-50 font-light"> Viewport: Camera source display.</li> 
-            <li class="text-2xl opacity-50 font-light"> Capture: Settings for photo capturing. </li>
-            <ul></ul>
+            <div class="flex-col">
+                <h1 class="help-header-text-1 opacity-50"> Welcome to <b class="opacity-90">CorkPad</b></h1>
+                <div class="bouncing-text">
+                    <div class="b">v</div>
+                    <div class="o">.</div>
+                    <div class="u">0</div>
+                    <div class="n">.</div>
+                    <div class="c">2</div>
+                    <div class="e">.</div>
+                    <div class="d">0</div>
+                    <div class="shadow"></div>
+                    <div class="shadow-two"></div>
+                </div>
+                <p class="help-header-text-2 opacity-50 font-thin">Note Processing Desktop Environment</p>
+                <div id="help-separator-line-l" class="separator-line-l"> </div>
+                <div id="help-separator-line-d" class="separator-line-d"> </div>
+                <ul class="mt-3 text-2xl opacity-50 font-light">CorkPad allows you to:</ul> 
+                <p class="text-2xl opacity-50 font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei usmod tempor incididunt sed do eiusmod tempor incididunt sed do eiusmod tempor incididunt. </p>
+                <li class="text-2xl opacity-50 font-light"> Filters: Allows you to apply predefined. </li>
+                <li class="text-2xl opacity-50 font-light"> Viewport: Camera source display.</li> 
+                <li class="text-2xl opacity-50 font-light"> Capture: Settings for photo capturing. </li>
           </div>
           <div class="flex-col flex-shrink-0 help-scene">
             <img src="https://i.postimg.cc/VN3TngSb/postit-bg-img.png" class="" alt="developer desk" style="height: 100%; width: 62%; opacity: 90%;">

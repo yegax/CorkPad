@@ -79,6 +79,12 @@ body, .cork-bg-img{
   background-color: rgb(229, 231, 235);
   color: rgb(0, 0, 0);
 }
+.bg-gray-main-text{
+  color: rgb(0, 0, 0);
+}
+.bg-gray-main-dark-text{
+  color: rgb(209, 213, 219);
+}
 .bg-gray-second{
   background-color: rgba(209, 213, 219, 1);
   color: rgb(0, 0, 0);
@@ -226,9 +232,6 @@ textarea::placeholder {
   box-shadow: 2px 2px 6px rgba(26, 26, 26, 0.2);
 }
 
-.margl{
-  margin-left: 92.2px;
-}
 .p-dropdown-blank {
   padding-top: 10px;
 }
@@ -241,6 +244,12 @@ textarea::placeholder {
 
 .margl-b{
   margin-top: -38px;
+  margin-left: 128.4px;
+}
+.margl-o{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding: 11px;
 }
 .margl-c{
   margin-left: 138.5px;
@@ -271,8 +280,9 @@ textarea::placeholder {
   margin-right: 10px;
 }
 .margl-j{
-  padding-left: 34px;
-  padding-right: 34px;
+  padding: 34px;
+  padding-bottom: 8.8px;
+  padding-top: 8.8px;
   margin-left: -2px;
 }
 .margl-k{
@@ -287,6 +297,7 @@ textarea::placeholder {
   margin-left: 129.5px;
   margin-top: -39.4px;
 }
+
 
 
 .counter, .reset, .themes, .minus {
@@ -488,7 +499,7 @@ textarea::placeholder {
 
   .bouncing-text {
     position: absolute;
-    margin-top: -32.1px;
+    margin-top: -35.5px;
     margin-left: 340px;
     display: flex;
     font-size: 20px;
