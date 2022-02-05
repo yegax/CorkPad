@@ -45,6 +45,12 @@ body, .cork-bg-img{
  .chipboard-bg-img {
   background-image: url('https://i.postimg.cc/ZRMSDLqm/Chipboard001-1-K-Color.jpg');
  }
+ .gray-bg-gradient{
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(238, 238, 238) 0%, rgb(153, 153, 153) 90% );
+ }
+ .dark-bg-gradient{
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(66, 79, 104) 0%, rgb(29, 33, 37) 90% );
+ }
 
 
 .non-click{
