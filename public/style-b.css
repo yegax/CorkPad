@@ -277,8 +277,8 @@ textarea::placeholder {
   padding-left: 30px;
 }
 .margl-h{
-  margin-left: 123.7px;
-  margin-top: -39.4px;
+  margin-left: 103px;
+  margin-top: -40.5px;
 }
 .margl-i{
   padding-left: 32.5px;
@@ -286,7 +286,7 @@ textarea::placeholder {
   margin-right: 10px;
 }
 .margl-j{
-  padding: 34px;
+  padding: 36px;
   padding-bottom: 8.8px;
   padding-top: 8.8px;
   margin-left: -2px;
@@ -300,8 +300,15 @@ textarea::placeholder {
   padding-right: 43px;
 }
 .margl-m{
-  margin-left: 129.5px;
+  margin-left: 126.8px;
   margin-top: -39.4px;
+}
+.margl-n{
+  padding: 36px;
+  padding-bottom: 8.8px;
+  padding-top: 8.8px;
+  margin-left: 95px;
+  margin-top: -49.5px;
 }
 
 
