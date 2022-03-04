@@ -8,6 +8,27 @@ var colors = [
   "#81d3ff"     
 ];
 
+var colorsModern = [
+    "rgba(154, 255, 114, 0.85)",
+    "rgba(255, 234, 114, 0.85)",
+    "rgba(255, 151, 255, 0.85)",
+    "rgba(114, 194, 255, 0.85)"     
+  ];
+
+var colorsNeon = [
+    "rgba(55, 55, 55, 0.07)",
+    "rgba(55, 55, 55, 0.07)",
+    "rgba(55, 55, 55, 0.07)",
+    "rgba(55, 55, 55, 0.07)" 
+  ];
+
+var colorsGlass = [
+    "rgba(154, 255, 114, 0.296)",
+    "rgba(255, 234, 114, 0.296)",
+    "rgba(255, 151, 255, 0.296)",
+    "rgba(114, 194, 255, 0.296)"   
+  ];
+
 var $div1 = $('#draggable1');
 var $div2 = $('#draggable2');
 var $div3 = $('#draggable3');
@@ -26,10 +47,51 @@ var $div21 = $('#draggable21');
 var $div22 = $('#draggable22');
 var $div23 = $('#draggable23');
 
+var $notes = $("#draggable1, #draggable2, #draggable3, #draggable4, #draggable5, #draggable6, #draggable7, #draggable8, #draggable9, #draggable10, #draggable11, #draggable12, #draggable13, #draggable14, #draggable15, #draggable16, #draggable17, #draggable18, #draggable19, #draggable20, #draggable21, #draggable22, #draggable23");
+
+// Glass
+$('#glass-notestyle-btn').click(function() {
+
+    $notes.removeClass("panel panel-modern panel-neon");
+    $notes.addClass("panel-glass");
+    $div1.css({"background-color": colorsGlass[(counter++)%colorsGlass.length]})
+});
+
+// Neon  
+$('#neon-notestyle-btn').click(function() {
+
+    $notes.removeClass("panel panel-glass panel-modern");
+    $notes.addClass("panel-neon");
+    $div1.css({"background-color": colorsNeon[(counter++)%colorsNeon.length]})
+});
+
+// Modern
+$('#modern-notestyle-btn').click(function() {
+
+    $notes.removeClass("panel panel-glass panel-neon");
+    $notes.addClass("panel-modern");
+    $div1.css({"background-color": colorsModern[(counter++)%colorsModern.length]})
+});
+
+// Classic (Default)   
+$('#classic-notestyle-btn').click(function() {
+
+    $notes.removeClass("panel-glass panel-modern panel-neon");
+    $notes.addClass("panel");
+    $div1.css({"background-color": colors[(counter++)%colors.length]})
+});
+
 $('#colorchange1').click(function(){
-  $div1.css({
-      "background-color": colors[(counter++)%colors.length]
-  })
+
+  if ($div1.hasClass("panel")) {
+    $div1.css({"background-color": colors[(counter++)%colors.length]})
+  } else if ($div1.hasClass("panel-modern")) {
+    $div1.css({"background-color": colorsModern[(counter++)%colorsModern.length]})
+  } else if ($div1.hasClass("panel-neon")) {
+    $div1.css({"background-color": colorsNeon[(counter++)%colorsNeon.length]})
+  } else if ($div1.hasClass("panel-glass")) {
+    $div1.css({"background-color": colorsGlass[(counter++)%colorsGlass.length]})
+  }
 });
 
 $('#colorchange2').click(function(){
