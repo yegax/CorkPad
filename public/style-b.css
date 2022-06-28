@@ -46,10 +46,25 @@ body, .cork-bg-img{
   background-image: url('https://i.postimg.cc/ZRMSDLqm/Chipboard001-1-K-Color.jpg');
  }
  .gray-bg-gradient{
-  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(238, 238, 238) 0%, rgb(153, 153, 153) 90% );
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(144, 144, 144) 0%, rgb(89, 89, 89) 90% );
  }
  .dark-bg-gradient{
   background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(66, 79, 104) 0%, rgb(29, 33, 37) 90% );
+ }
+ .white-bg-gradient{
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(238, 238, 238) 0%, rgb(153, 153, 153) 90% );
+ }
+ .sky-bg-gradient{
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(183, 208, 255) 10%, rgb(133, 194, 255) 50%, rgb(87, 132, 177) 90% );
+ }
+ .sunrise-bg-gradient{
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(255, 228, 195) 25%,rgb(255, 202, 88) 80% );
+ }
+ .multicolor-bg-gradient{
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(255, 47, 207) 0%,rgb(165, 56, 255) 90% );
+ }
+ .rainbow-bg-gradient{
+  background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(255, 34, 0) 0%, rgb(255, 136, 0) 15%, rgb(255, 208, 0) 30%, rgb(58, 255, 28) 50%, rgb(27, 122, 255) 60%, rgb(43, 0, 234) 70%, rgb(98, 0, 234) 80%, rgb(172, 0, 234) 90%);
  }
 
 

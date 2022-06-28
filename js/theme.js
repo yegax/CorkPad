@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    // Bright Mode Secondary Color
+    // Dark Mode Secondary Color
     var $brightSecond = $("#file-btn-base, #edit-btn-base, #layer-btn-base, #widget-btn-base, #help-btn-base");
-    // Bright Mode Main Color      
-    var $brightMain = $("#dark-g-bg, #gray-g-bg, #file-dropdown-theme, #pdfDownload, #pngDownload, #jpgDownload, #edit-dropdown-theme, #bright-theme, #dark-theme, #settings-dropdown-theme, #material-dropdown-theme, #solid-dropdown-theme, #video-dropdown-theme, #custom-dropdown-theme, #font-dropdown-theme, #arial-btn, #monospace-btn, #handwritten-btn, #cork-bg, #wood-bg, #metal-bg, #woodgrain-bg, #tiles-bg, #brick-bg, #grass-bg, #chipboard-bg, #notes-dropdown-theme, #note1, #note2, #note3, #note4, #note5, #note6, #media-dropdown-theme, #media7, #media8, #media9, #media10, #media11, #media12, #list-dropdown-theme, #list13, #list14, #list15, #list16, #list17, #list18, #weather-dropdown-theme, #counter21, #twitter-dropdown-theme, #counter20, #calendar-dropdown-theme, #counter22, #counter-dropdown-theme, #counter19, #spotify-dropdown-theme, #counter23, #help-button, #manual-button, #about-button, #feedback-button");
-    // Bright Mode blank space    
+    // Dark Mode Main Color      
+    var $brightMain = $("#white-g-bg, #sky-g-bg, #sunrise-g-bg, #multicolor-g-bg, #rainbow-g-bg,  #dark-g-bg, #gray-g-bg, #file-dropdown-theme, #pdfDownload, #pngDownload, #jpgDownload, #edit-dropdown-theme, #bright-theme, #dark-theme, #settings-dropdown-theme, #material-dropdown-theme, #solid-dropdown-theme, #video-dropdown-theme, #custom-dropdown-theme, #font-dropdown-theme, #arial-btn, #monospace-btn, #handwritten-btn, #cork-bg, #wood-bg, #metal-bg, #woodgrain-bg, #tiles-bg, #brick-bg, #grass-bg, #chipboard-bg, #notes-dropdown-theme, #note1, #note2, #note3, #note4, #note5, #note6, #media-dropdown-theme, #media7, #media8, #media9, #media10, #media11, #media12, #list-dropdown-theme, #list13, #list14, #list15, #list16, #list17, #list18, #weather-dropdown-theme, #counter21, #twitter-dropdown-theme, #counter20, #calendar-dropdown-theme, #counter22, #counter-dropdown-theme, #counter19, #spotify-dropdown-theme, #counter23, #help-button, #manual-button, #about-button, #feedback-button");
+    // Dark Mode blank space    
     var $brightMainBlank = $("#blank-dropdown-theme-a, #blank-dropdown-theme-b, #blank-dropdown-theme-c, #blank-dropdown-theme-d, #blank-dropdown-theme-e");
 
     // Dark Mode    
@@ -26,8 +26,8 @@ $(document).ready(function(){
         $("#form-submit-btn").removeClass("form-submit-light");
         $("#form-submit-btn").addClass("form-submit-dark");
 
-        $("#material-dropdown-theme-a, #solid-dropdown-theme-a, #video-dropdown-theme-a, #custom-dropdown-theme-a").removeClass("bg-gray-main-text");
-        $("#material-dropdown-theme-a, #solid-dropdown-theme-a, #video-dropdown-theme-a, #custom-dropdown-theme-a").addClass("bg-gray-main-dark-text");
+        $("#lock-videos-icon, #lock-custom-icon, #material-dropdown-theme-a, #solid-dropdown-theme-a, #video-dropdown-theme-a, #custom-dropdown-theme-a").removeClass("bg-gray-main-text");
+        $("#lock-videos-icon, #lock-custom-icon, #material-dropdown-theme-a, #solid-dropdown-theme-a, #video-dropdown-theme-a, #custom-dropdown-theme-a").addClass("bg-gray-main-dark-text");
 
         $brightMainBlank.removeClass("bg-gray-main");
         $brightMainBlank.addClass("bg-gray-main-dark-a");
